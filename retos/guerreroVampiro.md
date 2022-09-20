@@ -14,3 +14,26 @@ A continuación, datos relevantes de ambos luchadores:
 |Ataque:|2|4|
 |% éxito|50%|50%
 
+# Reto extendido
+
+El Héroe y el Vampiro cuentan con una energía inicial de 150 y 60 puntos respectivamente.
+
+El Héroe cuenta con tres armas que responden a las siguientes reglas:
+
+| | Ataque | Probabilidad de éxito |
+|-|-|-|
+| Arma 1 | 7 | 50 % |
+| Arma 2 | 15 | 25 % |
+| Arma 3 | 30 | 12 % |
+
+El Vampiro cuenta con tres ataques que responden a las siguientes reglas:
+
+| | Ataque | Probabilidad de éxito |
+|-|-|-|
+| Ataque 1 | 5 | 90 % |
+| Ataque 2 | 10 | 60 % |
+| Ataque 3 | 20 | 40 % |
+
+El usuario controla las acciones del Héroe, pudiendo elegir el arma en cada turno de batalla. 
+
+El programa controla las acciones del Vampiro, eligiendo aleatoriamente el ataque que realiza. Los tres ataques tienen la misma probabilidad de ser elegidos.
