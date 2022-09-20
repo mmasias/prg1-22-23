@@ -24,4 +24,4 @@ Una pista avanzada puede ser:
 
 Agregue al algoritmo la posibilidad de *"hacer trampa"* si el usuario se acerca mucho al resultado (por ejemplo, si hace caliente dos veces seguidas). Haga que modifique el número pensado un valor aleatorio entre 1 y 5, sin exceder los límites de 1 y 100. 
 
-NOTA: Haga que el ordenador estornude cuando hace trampa.
+NOTA: El ordenador estornuda cuando hace trampa. ;)
