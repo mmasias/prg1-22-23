@@ -1,11 +1,15 @@
 # El viaje de Marco
 ## Introducción
-> Marco, de los Apeninos a los Andes es un relato breve de ficción incluido por Edmundo de Amicis en su novela Corazón, publicada en 1886. Narra la historia del extenso y complicado viaje de un niño de trece años, Marco, desde Italia hacia Argentina, en busca de su madre, que había emigrado a aquel país sudamericano dos años antes. [Fuente: Wikipedia](https://es.wikipedia.org/wiki/Marco,_de_los_Apeninos_a_los_Andes)
+> *Marco, de los Apeninos a los Andes* es un relato breve de ficción incluido por Edmundo de Amicis en su novela Corazón, publicada en 1886. Narra la historia del extenso y complicado viaje de un niño de trece años, Marco, desde Italia hacia Argentina, en busca de su madre, que había emigrado a aquel país sudamericano dos años antes. [Fuente: Wikipedia](https://es.wikipedia.org/wiki/Marco,_de_los_Apeninos_a_los_Andes)
 
 En Génova, al norte de Italia, reside una familia con dos hijos de dieciocho y once años. La madre se ve obligada a marchar a Argentina para encontrar trabajo sirviendo en una casa. Durante un tiempo la familia recibe, por escrito, noticias de la madre, pero al cabo de un año las cartas cesan, luego de una en la que se daba cuenta de problemas de salud, con lo que se crea una situación de preocupación e incertidumbre. 
+
 Tras tratar de conseguir noticias a través del Consulado italiano en Buenos Aires, a los dos años de la partida de la madre, el más pequeño de los dos hijos, Marco, decide afrontar, salvando las iniciales reticencias de su padre, el largo viaje de veintisiete días que entonces debían sufrir los emigrantes a bordo de grandes buques mercantes.
+
 A su llegada a la capital argentina no consigue encontrar a su madre, pues la familia para la que trabaja ha trasladado su residencia a Córdoba. Tras pasar una noche en Buenos Aires, Marco inicia el recorrido... 
+
 # Problema
+
 Marco inicia la búsqueda andando a paso firme y ansioso por encontrar a su madre. La velocidad del chaval –en promedio diario- es de 10 a 15 Km/h (teniendo en cuenta que a ratos corre, a otros ratos trota y a otros camina), y que realiza de 8 a 10 horas de trayecto.
 
 El camino en sí tiene pocos inconvenientes –además del caminar, claro está-, aunque existe la probabilidad de lluvia. Hay un 10% de probabilidad de lluvia fuerte (en cuyo caso la velocidad de Marco se reduce al 25%) y un 30% de probabilidad de lluvia normal (en cuyo caso la velocidad se reduce en un 25%). El restante 60% de probabilidad le corresponde a un buen clima.
@@ -17,12 +21,15 @@ Por su parte, la madre –que inicialmente está a 350 kilometros de Marco- reco
 Escriba un programa que nos permita hacer el seguimiento de las peripecias de Marco, y nos diga –finalmente- en cuantos días Marco encuentra a su madre.
 
 ## Extensión 1
+
 Extienda el programa anterior para que la madre, en lugar de avanzar 80 kilómetros por día, recorra el camino a una velocidad de 6 a 9 km/h al día, haciendo tramos de entre 6 a 9 horas de trayecto por día. Durante el trayecto, cada día, debido a lo irregular del clima, hay un 60% de probabilidad de buen tiempo, un 30% de probabilidad de lluvia y un 10% de probabilidad de lluvia muy fuerte. Si llueve, la velocidad del carruaje se ve disminuida en un 25% y si llueve muy fuerte, el carruaje ve disminuida su velocidad en un 50%. 
 
 ## Extensión 2
+
 Extienda el programa anterior para que contemple que si al final del día la distancia entre la madre y Marco es menor a 50 km, existe el 50% de probabilidad que Marco encuentre alguien que le diga que ha visto a su madre, lo que le emocionaría y rompería a correr –sin importar el clima, el cansancio ni el mono- 25 kilómetros adicionales a lo avanzado ese día.
 
 # Sugerencia de presentación
+
 ```
 DIARIO DEL VIAJE DE MARCO
 =========================
