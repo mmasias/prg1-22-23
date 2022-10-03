@@ -6,7 +6,7 @@ Debido a su altura consiguio sorprender a sus entrenadores de fútbol base y dec
 Era malisimo con los pies asi que fue un acierto por parte de los entrenadores, pero el chiquillo se distraia con facilidad y erraba muy amenudo.
 Pasarón los años y no avanzaba, era lento, despistado, sin carisma y no alcanzaba a atajar los balones hasta que un día...
 Decidio cambiar de equipo a los 16 años, aterrizando en el pueblo vecino (Colindres) equipo detestado por su exequipo, estilo Boca vs River.
-Sorprendente mente alcanzo un nivel impresionante en los 2 siguientes años logrando ir convocado con el mayor a un partido de copa federación.
+Sorprendentemente alcanzo un nivel impresionante en los 2 siguientes años logrando ir convocado con el mayor a un partido de copa federación.
 # Estudios
 Se dedico a estudiar en la escuela publica CEIP. Villa del Mar.
 Con 12 años alcanzo un grado de madurez que le permitio acceder al IES Fuente Fresnedo en 2016.
