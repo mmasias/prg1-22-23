@@ -43,4 +43,4 @@
 - Guardarlo en una carpeta
 - Compilarlo (javac nombreClase.java)
 - Ejecutarlo (java nombreClase)
-- Utilizar la salida en pantalla: println() y print() 
+- Utilizar la salida en pantalla: println() y print()
