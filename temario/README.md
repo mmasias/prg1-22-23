@@ -17,9 +17,9 @@
 | |Windows|Linux|Mac
 |-|-|-|-
 | Crear carpeta| mkdir nombreDeCarpeta <br> o <br> md nombreDeCarpeta
-| Listar contenido de carpeta|
+| Listar contenido de carpeta| dir
 | Renombrar carpeta|
-| Eliminar carpeta|
+| Eliminar carpeta| rm nombreDeCarpeta
 
 
 ### Limpiar consola
