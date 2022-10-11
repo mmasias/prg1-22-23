@@ -1,21 +1,37 @@
 # A día de hoy, deberíamos saber:
 
-## Requisitos
+# Requisitos
 
-### Conceptos de consola
+## Conceptos de consola
 
-- Invocar a la consola
-- Carpetas: CRUD
-- Limpiar consola
+### Invocar a la consola
 
-## Java et al...
+|Windows|Linux|Mac
+|-|-|-
+|Tecla Windows + R, escribir "CMD" y pulsar Enter|Ctrl + Alt + T|En el Finder , abrir /Aplicaciones/Utilidades y, a continuación, haz doble clic en Terminal.
+|En el explorador de archivos, ubicarse en la ruta deseada, escribir "CMD" en la barra de direcciones y pulsar Enter||
 
-### Identificar
+
+### Carpetas: CRUD
+
+| |Windows|Linux|Mac
+|-|-|-|-
+| Crear carpeta| mkdir nombreDeCarpeta <br> o <br> md nombreDeCarpeta
+| Listar contenido de carpeta|
+| Renombrar carpeta|
+| Eliminar carpeta|
+
+
+### Limpiar consola
+
+# Java et al...
+
+## Identificar
 
 - El compilador de Java (javac)
 - El intérprete de Java (java)
 
-### Programación
+## Programación
 
 - Base
   - Crear el código fuente de un programa Java (a partir de la plantilla indicada en clase)
