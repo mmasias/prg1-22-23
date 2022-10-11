@@ -16,10 +16,10 @@
 
 | |Windows|Linux|Mac
 |-|-|-|-
-| Crear carpeta| mkdir nombreDeCarpeta <br> o <br> md nombreDeCarpeta
-| Listar contenido de carpeta| dir
+| Crear carpeta| mkdir nombreDeCarpeta <br> o <br> md nombreDeCarpeta| mkdir nombreDeCarpeta|mkdir nombreDeCarpeta
+| Listar contenido de carpeta| dir| ls -l| ls -l
 | Renombrar carpeta|
-| Eliminar carpeta| rm nombreDeCarpeta
+| Eliminar carpeta| rmdir nombreDeCarpeta| rmdir nombreDeCarpeta| rmdir nombreDeCarpeta|
 
 
 ### Limpiar consola
