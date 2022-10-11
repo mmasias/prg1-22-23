@@ -47,48 +47,4 @@
 
 ### Micro-retos
 
-Desarrolle el código que permita generar los siguientes dibujos de [arte ascii](https://es.wikipedia.org/wiki/Arte_ASCII)
-
-```
-  **********
-  **********
-  **********
-  **********
-  **********
-``` 
-
-```
-  **  **  **
-  **  **  **
-    **  **  
-    **  **  
-  **  **  **
-  **  **  **
-
-``` 
-
-```
-      *
-     ***
-    *****
-   *******
-  ********
-  *********
-  *********
-  *********
-  *********
-  *********
-```
-
-```
-      *
-     ***
-    *****
-   *******
-  ********
-  *********
-  *********
-  ***   ***
-  ***   ***
-  *********
-```
+* Desarrolle los retos incluidos en [esta página](../retos/001-MicroRetosASCIIart.md).
