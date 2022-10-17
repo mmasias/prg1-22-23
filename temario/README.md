@@ -19,9 +19,9 @@
 
 - Crear el código fuente de un programa Java (a partir de la [**plantilla**](plantilla.md) indicada en clase)
 - Guardarlo en una carpeta
-- Compilarlo (javac nombreClase.java)
-- Ejecutarlo (java nombreClase)
-- Utilizar la salida en pantalla: println() y print()
+- Compilarlo (**javac nombreClase.java**)
+- Ejecutarlo (**java nombreClase**)
+- Utilizar la salida en pantalla: **println()** y **print()**
 
 ### Micro-retos
 
