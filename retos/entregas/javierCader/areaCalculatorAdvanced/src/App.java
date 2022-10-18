@@ -14,7 +14,7 @@ public class App {
             int continueRunning = JOptionPane.showConfirmDialog(null, "Do you want to do another operation?",
                     "Continue Running", JOptionPane.YES_NO_OPTION);
 
-            if (continueRunning == 1) {
+            if (continueRunning == 1 || continueRunning == -1) {
                 run = false;
             }
         }
