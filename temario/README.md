@@ -30,6 +30,13 @@
 
 > Presentación: En el campus virtual, sección **Materiales de Clase**, subsección **Ingeniería Informática,  materiales específicos** / **Presentaciones**: **P1 - S01E03 - Variables.pdf**
 
+- Concepto de variable
+- Declaración de una variable: tipo & nombre
+- Inicialización y asignación de valores a una variable
+- Proceso de casting
+- Tipos de datos primitivos y tipo de dato String
+- Operadores aritméticos
+
 #### Micro-retos
 
 * Desarrolle los retos incluidos en [esta página](../retos/002-MicroRetosVariables.md).
