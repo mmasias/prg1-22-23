@@ -29,3 +29,7 @@
 ### Variables
 
 > Presentación: En el campus virtual, sección **Materiales de Clase**, subsección **Ingeniería Informática,  materiales específicos** / **Presentaciones**: **P1 - S01E03 - Variables.pdf**
+
+#### Micro-retos
+
+* Desarrolle los retos incluidos en [esta página](../retos/002-MicroRetosVariables.md).
