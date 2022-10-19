@@ -1,4 +1,4 @@
-public class UnDibujo2 {
+public class UnDibujo3 {
     public static void main(String[] args) {
         System.out.println("+--------------------+");
         System.out.println("|**  **  **  **  **  |");
