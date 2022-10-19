@@ -10,9 +10,9 @@ public class Calculator extends JOptionPane {
 
         ImageIcon logo = new ImageIcon("src/assets/logo.png");
 
-        String[] responses = {"Square", "Triangle", "Circle"};
+        String[] operations = {"Square", "Triangle", "Circle"};
 
-        int operationSelector = (JOptionPane.showOptionDialog(null, "Select the figure for which you want to calculate the area", "Area Calculator", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, logo, responses, 0));
+        int operationSelector = (JOptionPane.showOptionDialog(null, "Select the figure for which you want to calculate the area", "Area Calculator", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, logo, operations, 0));
 
         if (operationSelector == 0) {
             new squareCalculator();
