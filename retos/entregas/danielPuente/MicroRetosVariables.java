@@ -44,7 +44,7 @@ public class MicroRetosVariables{
         examen=7;
         contínua=5;
         profesor=10;
-        NotaFinal=(parcial*0.25+examen*0.5+contínua*0.2+profesor*0.1);
+        NotaFinal=(parcial*0.25+examen*0.5+contínua*0.2+profesor*0.05);
         System.out.println("La nota final en UNEATLÁNTICO es " +NotaFinal);
     }
 }
