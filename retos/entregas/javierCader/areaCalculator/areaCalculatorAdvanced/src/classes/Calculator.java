@@ -8,7 +8,7 @@ import classes.areaCalculators.*;
 public class Calculator extends JOptionPane {
     public Calculator() {
 
-        ImageIcon logo = new ImageIcon("src/assets/logo.png");
+        ImageIcon logo = new ImageIcon("https://github.com/Hexcss/Programacion-1/blob/main/retos/entregas/javierCader/areaCalculator/areaCalculatorAdvanced/src/assets/logo.png");
 
         String[] operations = {"Square", "Triangle", "Circle"};
 
