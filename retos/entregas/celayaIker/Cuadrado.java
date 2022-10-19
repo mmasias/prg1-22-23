@@ -11,5 +11,6 @@ public class Cuadrado {
         area = (lado * lado);
 
         System.out.println( "El área es " + area );
+        teclado.close();
     }
 }
