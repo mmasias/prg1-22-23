@@ -15,5 +15,6 @@ public class Promedio {
         promedio = (n1 + n2)/2;
 
         System.out.println( "El promedio es " + promedio );
+        teclado.close();
     }
 }
