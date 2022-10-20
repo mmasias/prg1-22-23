@@ -12,27 +12,27 @@ public class GeometicAreaCalculator {
         switch (option) {
             case 1:
                 System.out.println("Enter the base");
-                double basesquare = sc.nextDouble();
-                double Square = basesquare * basesquare;
-                System.out.println("The area is " + Square);
+                double baseSquare = sc.nextDouble();
+                double square = baseSquare * baseSquare;
+                System.out.println("The area is " + square);
                 break;
 
             case 2:
                 System.out.println("Enter the base");
-                double baserectangle = sc.nextDouble();
+                double baseRectangle = sc.nextDouble();
                 System.out.println("Enter the heigth");
-                double heigthrectangle = sc.nextDouble();
-                double Rectangle = baserectangle * heigthrectangle;
-                System.out.println("The area is " + Rectangle);
+                double heigthRectangle = sc.nextDouble();
+                double rectangle = baseRectangle * heigthRectangle;
+                System.out.println("The area is " + rectangle);
                 break;
 
             case 3:
                 System.out.println("Enter the base");              
-                double basetriangle = sc.nextDouble();
+                double baseTriangle = sc.nextDouble();
                 System.out.println("Enter the heigth");
-                double heigthtriangle = sc.nextDouble();
-                double Triangle = (basetriangle * heigthtriangle)/2;
-                System.out.println("The area is " + Triangle);
+                double heigthTriangle = sc.nextDouble();
+                double triangle = (baseTriangle * heigthTriangle)/2;
+                System.out.println("The area is " + triangle);
                 break;
 
             case 4:
