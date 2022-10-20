@@ -4,11 +4,11 @@
 
 | Version | Description | Link  |
 | :----: |:-----:| :----:|
-|Vanilla|ASCII Art|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ASCII%20Art/ArtASCII.java)|
-|Vanilla|Average Calculator (2 values)|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/Average%20Calculator/AverageCalculator.java)|
-|Vanilla|Square Area Calculator|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/AreaCalculator/AreaSquare.java)|
-|Vanilla|Rectangle Area Calculator|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/AreaCalculator/AreaRectangle.java)|
-|Vanilla|Circle Area Calculator|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/AreaCalculator/AreaCircle.java)|
-|Vanilla-Extra|Triangle Area Calculator|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/AreaCalculator/AreaTriangle.java)|
-|Extra|Geometric Figures Area Calculator|[Mirror](AndrextA.github.io/prg1-22-23/retos/entregas/andrésAlarcón/AreaCalculator/GeometicAreaCalculator.java)|
-|Vanilla|Final Grade UNEATLANTICO|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/Average%20Calculator/FinalGradeCalculator.java)|
+|Vanilla|ASCII Art|[Mirror](ASCII Art/ArtASCII.java)|
+|Vanilla|Average Calculator (2 values)|[Mirror](Average Calculator/AverageCalculator.java)|
+|Vanilla|Square Area Calculator|[Mirror](AreaCalculator/AreaSquare.java)|
+|Vanilla|Rectangle Area Calculator|[Mirror](AreaCalculator/AreaRectangle.java)|
+|Vanilla|Circle Area Calculator|[Mirror](AreaCalculator/AreaCircle.java)|
+|Vanilla-Extra|Triangle Area Calculator|[Mirror](AreaCalculator/AreaTriangle.java)|
+|Extra|Geometric Figures Area Calculator|[Mirror](AreaCalculator/GeometicAreaCalculator.java)|
+|Vanilla|Final Grade UNEATLANTICO|[Mirror](Average Calculator/FinalGradeCalculator.java)|
