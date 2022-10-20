@@ -4,11 +4,11 @@
 
 | Version | Description | Link  |
 | :----: |:-----:| :----:|
-|Vanilla|ASCII Art|[Mirror](ASCII Art/ArtASCII.java)|
-|Vanilla|Average Calculator (2 values)|[Mirror](Average Calculator/AverageCalculator.java)|
+|Vanilla|ASCII Art|[Mirror](ASCIIArt/ArtASCII.java)|
+|Vanilla|Average Calculator (2 values)|[Mirror](AverageCalculator/AverageCalculator.java)|
 |Vanilla|Square Area Calculator|[Mirror](AreaCalculator/AreaSquare.java)|
 |Vanilla|Rectangle Area Calculator|[Mirror](AreaCalculator/AreaRectangle.java)|
 |Vanilla|Circle Area Calculator|[Mirror](AreaCalculator/AreaCircle.java)|
 |Vanilla-Extra|Triangle Area Calculator|[Mirror](AreaCalculator/AreaTriangle.java)|
 |Extra|Geometric Figures Area Calculator|[Mirror](AreaCalculator/GeometicAreaCalculator.java)|
-|Vanilla|Final Grade UNEATLANTICO|[Mirror](Average Calculator/FinalGradeCalculator.java)|
+|Vanilla|Final Grade UNEATLANTICO|[Mirror](AverageCalculator/FinalGradeCalculator.java)|
