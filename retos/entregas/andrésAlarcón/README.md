@@ -10,5 +10,5 @@
 |Vanilla|Rectangle Area Calculator|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/AreaCalculator/AreaRectangle.java)|
 |Vanilla|Circle Area Calculator|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/AreaCalculator/AreaCircle.java)|
 |Vanilla-Extra|Triangle Area Calculator|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/AreaCalculator/AreaTriangle.java)|
-|Extra|Geometric Figures Area Calculator|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/739ee6e6aca2f45416c04a6a3df768976e0f2a2c/retos/entregas/andr%C3%A9sAlarc%C3%B3n/AreaCalculator/GeometicAreaCalculator.java)|
+|Extra|Geometric Figures Area Calculator|[Mirror](AndrextA.github.io/prg1-22-23/retos/entregas/andrésAlarcón/AreaCalculator/GeometicAreaCalculator.java)|
 |Vanilla|Final Grade UNEATLANTICO|[Mirror](https://github.com/AndrextA/prg1-22-23/blob/a25812c400dd66d44ce4b76195be1b341522977f/retos/entregas/andr%C3%A9sAlarc%C3%B3n/Average%20Calculator/FinalGradeCalculator.java)|
