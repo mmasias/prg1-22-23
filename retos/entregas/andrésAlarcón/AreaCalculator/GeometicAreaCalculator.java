@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AreaCalculator {
+public class GeometicAreaCalculator {
     public static void main(String[] args) {
 
         double side, base, heigth, ratio, pi;
