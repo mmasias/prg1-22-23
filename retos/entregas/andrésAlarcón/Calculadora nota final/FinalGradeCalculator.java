@@ -5,20 +5,19 @@ public class FinalGradeCalculator {
         
         Scanner lector = new Scanner(System.in);
 
-        double examen_final, examen_parcial, evaluacion_continua, evaluacion_profesor, nota_final;
+        double finalexam, midtermexam, continuousassessment, teacherevaluation, finalgrade;
 
-        System.out.println("Ingrese la nota del examen final");
-        examen_final = lector.nextDouble();
-        System.out.println("Ingrese la nota del examen parcial");
-        examen_parcial = lector.nextDouble();
-        System.out.println("Ingrese la nota de la evaluación continua");
-        evaluacion_continua = lector.nextDouble();
-        System.out.println("Ingrese la nota de la evaluación del profesor");
-        evaluacion_profesor = lector.nextDouble();
+        System.out.println("Enter the final exam grade");
+        finalexam = lector.nextDouble();
+        System.out.println("Enter the midterm exam grade");
+        midtermexam = lector.nextDouble();
+        System.out.println("Enter the continuous assessment grade");
+        continuousassessment = lector.nextDouble();
+        System.out.println("Enter the teacher evvaluation grade");
+        teacherevaluation = lector.nextDouble();
+        finalgrade = finalexam * 0.5 + midtermexam * 0.25 + continuousassessment * 0.2 + teacherevaluation * 0.05;
 
-        nota_final = examen_final * 0.5 + examen_parcial * 0.25 + evaluacion_continua * 0.2 + evaluacion_profesor * 0.05;
-
-        System.out.println("La nota final es: "+nota_final);
+        System.out.println("The final grade is: "+finalgrade);
 
         lector.close();
     }
