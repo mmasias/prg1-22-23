@@ -9,6 +9,6 @@
 |Vanilla|Square Area Calculator|[Mirror](AreaCalculator/AreaSquare.java)|
 |Vanilla|Rectangle Area Calculator|[Mirror](AreaCalculator/AreaRectangle.java)|
 |Vanilla|Circle Area Calculator|[Mirror](AreaCalculator/AreaCircle.java)|
-|Vanilla-Extra|Triangle Area Calculator|[Mirror](AreaCalculator/AreaTriangle.java)|
+|Extra|Triangle Area Calculator|[Mirror](AreaCalculator/AreaTriangle.java)|
 |Extra|Geometric Figures Area Calculator|[Mirror](AreaCalculator/GeometicAreaCalculator.java)|
 |Vanilla|Final Grade UNEATLANTICO|[Mirror](AverageCalculator/FinalGradeCalculator.java)
