@@ -47,26 +47,20 @@ public class MiniRetosVariablesCorregidos {
         System.out.println("==========================================================================================================================");
         System.out.println("\n");
 
-        double parcial = 6;
+        double notaExamenParcial = 6;
         double continua = 7;
         double profesor = 10;
         double examenFinal = 4;
-        double nota;                        //NOTA FINAL
+        double notaFinal;                       
         double porcentajeParcial = 0.25;
         double porcentajeContinua = 0.20;
         double porcentajeProfesor = 0.05;
         double porcentajeExamenFinal = 0.5;
 
-        nota = parcial * porcentajeParcial + continua * porcentajeContinua + profesor * porcentajeProfesor + examenFinal * porcentajeExamenFinal;
+        notaFinal = notaExamenParcial * porcentajeParcial + continua * porcentajeContinua + profesor * porcentajeProfesor + examenFinal * porcentajeExamenFinal;
 
-        System.out.println("La nota en este curso de Programacion 1 en la UNEAT es igual a "+ nota);
+        System.out.println("La nota en este curso de Programacion 1 en la UNEAT es igual a "+ notaFinal);
         System.out.println("\n");
-
-
-        
-
-
-
 
     }
 }
