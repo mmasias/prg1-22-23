@@ -60,5 +60,5 @@ public class retoprogra {
         System.out.println("***   ***");
         System.out.println("*********");
         System.out.println("\n");
-}
+    }
 }
