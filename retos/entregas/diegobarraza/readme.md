@@ -1,4 +1,4 @@
-# Carpeta para entregas...
+# Carpeta para entregas De Diego Barraza
 
-Crear (los que quieran mostrar su trabajo) una carpeta nombrada nombreApellido y dentro de ella los códigos fuentes para revisar.
+
 
