@@ -37,6 +37,6 @@ public class triangulo {
         base = 10;
         area = base * altura/2;
 
-        System.out.println("El area del circulo es: " + area)
+        System.out.println("El area del triangulo es: " + area)
     }
 }
