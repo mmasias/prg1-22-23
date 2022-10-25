@@ -1,4 +1,4 @@
-public class cuadrado {
+public class Cuadrado {
 
     public static void main(String[] args) {
 
@@ -25,7 +25,7 @@ public class Circulo {
         System.out.println("El area del circulo es: " + area)
     }
 }
-public class triangulo {
+public class Triangulo {
 
     public static void main(String[] args) {
 
