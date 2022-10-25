@@ -1,0 +1,64 @@
+public class ArteASCII {
+    public static void main(String[]args){
+        System.out.println("Reto 1:");
+        System.out.println("\n");
+        System.out.println("**********");
+        System.out.println("**********");
+        System.out.println("**********");
+        System.out.println("**********");
+        System.out.println("**********");
+        System.out.println("\n");
+        System.out.println("Reto :");
+        System.out.println("\n");
+        System.out.println("**  **  **");
+        System.out.println("**  **  **");
+        System.out.println("  **  **  ");
+        System.out.println("  **  **  ");
+        System.out.println("**  **  **");
+        System.out.println("**  **  **");
+        System.out.println("\n");
+        System.out.println("Reto :");
+        System.out.println("\n");
+        System.out.println("+--------------------+");
+        System.out.println("|**  **  **  **  **  |");
+        System.out.println("|**  **  **  **  **  |");
+        System.out.println("|  **  **  **  **  **|");
+        System.out.println("|  **  **  **  **  **|");
+        System.out.println("|**  **  **  **  **  |");
+        System.out.println("|**  **  **  **  **  |");
+        System.out.println("|  **  **  **  **  **|");
+        System.out.println("|  **  **  **  **  **|");
+        System.out.println("+--------------------+");
+        System.out.println("\n");
+        System.out.println("Reto :");
+        System.out.println("\n");
+        System.out.println("    *");
+        System.out.println("   ***");
+        System.out.println("  *****");
+        System.out.println(" *******");
+        System.out.println("********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("\n");
+        System.out.println("Reto :");
+        System.out.println("\n");
+        System.out.println("    *");
+        System.out.println("   ***");
+        System.out.println("  *****");
+        System.out.println(" *******");
+        System.out.println("********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("***   ***");
+        System.out.println("***   ***");
+        System.out.println("*********");
+        System.out.println("\n");
+        System.out.println("Reto :");
+        System.out.println("\n");
+    }
+
+}
