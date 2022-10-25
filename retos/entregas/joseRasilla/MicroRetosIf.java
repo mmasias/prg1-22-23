@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class microRetosIf {
+public class MicroRetosIf {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
