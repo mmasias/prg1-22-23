@@ -73,4 +73,45 @@
     </table>
   </section>
   
+  <section>
+    <hr>
+    <h2 align="center">
+      <img width="22px" alt="programmer" src="https://cdn-icons-png.flaticon.com/512/5559/5559029.png"/>
+      If Challenges
+      <img width="22px" alt="programmer" src="https://cdn-icons-png.flaticon.com/512/5559/5559029.png"/>
+    </h2>
+    <table align="center">
+      <tr>  
+        <th>Challenge</td>
+        <th>Description</td>
+        <th>Link</td>
+      </tr>
+      <tr>  
+        <th>Coin Flipper</td>
+        <th>Simulate the flipping of a coin</td>
+        <th><a href="https://github.com/Hexcss/Programacion-1/tree/main/retos/entregas/javierCader/ifChallenges/CoinFlipper/src">Code</a></td>
+      </tr>
+      <tr>  
+        <th>Division Calculator</td>
+        <th>Calculate the division of two numbers</td>
+        <th><a href="https://github.com/Hexcss/Programacion-1/tree/main/retos/entregas/javierCader/ifChallenges/dividerCalculator/src">Code</a></td>
+      </tr>
+      <tr>  
+        <th>Quadratic Calculator</td>
+        <th>Calculate X using Quadratic Formula</td>
+        <th><a href="https://github.com/Hexcss/Programacion-1/tree/main/retos/entregas/javierCader/ifChallenges/PolynomicCalculator/src">Code</a></td>
+      </tr>
+      <tr>  
+        <th>Change Calculator</td>
+        <th>Calcukate the number of bills and coins in change</td>
+        <th><a href="https://github.com/Hexcss/Programacion-1/tree/main/retos/entregas/javierCader/ifChallenges/ChangeCalculator/src">Code</a></td>
+      </tr>
+      <tr>  
+        <th>Card Number Guesser</td>
+        <th>Create a guesser for the user's number using cards</td>
+        <th><a href="https://github.com/Hexcss/Programacion-1/tree/main/retos/entregas/javierCader/ifChallenges/NumberGuesser/src">Code</a></td>
+      </tr>
+    </table>
+  </section>
+  
 </body>
