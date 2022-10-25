@@ -1,4 +1,4 @@
-public class miniRetosVariables {
+public class MiniRetosVariables {
 
     public static void main(String[] args) {
 
