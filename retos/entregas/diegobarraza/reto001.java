@@ -1,20 +1,26 @@
-public class ArtASCII {
-    public static void main(String[] args) {
+public class retoprogra001 {
+    public static void main(String[]args) {
+        System.out.print("Reto numero 1:");
+        System.out.println();
+        System.out.println("**********");
+        System.out.println("**********");
+        System.out.println("**********");
+        System.out.println("**********");
+        System.out.println("**********");
+        System.out.println();
 
-        System.out.println("Sketch: 1:");
-        System.out.println("**********");
-        System.out.println("**********");
-        System.out.println("**********");
-        System.out.println("**********");
-        System.out.println("**********\n\n");
-        System.out.println("Sketch 2:");
+        System.out.print("Reto numero 2:");
+        System.out.println();
         System.out.println("**  **  **");
         System.out.println("**  **  **");
         System.out.println("  **  **  ");
         System.out.println("  **  **  ");
         System.out.println("**  **  **");
-        System.out.println("**  **  **\n\n");
-        System.out.println("Sketch 3:");
+        System.out.println("**  **  **");
+        System.out.println();
+
+        System.out.print("Reto numero 3:");
+        System.out.println();
         System.out.println("+--------------------+");
         System.out.println("|**  **  **  **  **  |");
         System.out.println("|**  **  **  **  **  |");
@@ -24,30 +30,35 @@ public class ArtASCII {
         System.out.println("|**  **  **  **  **  |");
         System.out.println("|  **  **  **  **  **|");
         System.out.println("|  **  **  **  **  **|");
-        System.out.println("+--------------------+\n\n");
-        System.out.println("Sketch 4:");
-        System.out.println("    *");
-        System.out.println("   ***");
-        System.out.println("  *****");
-        System.out.println(" *******");
-        System.out.println("********");
-        System.out.println("*********");
-        System.out.println("*********");
-        System.out.println("*********");
-        System.out.println("*********");
-        System.out.println("*********\n\n");
-        System.out.println("Sketch 5:");
-        System.out.println("    *");
-        System.out.println("   ***");
-        System.out.println("  *****");
-        System.out.println(" *******");
-        System.out.println("********");
-        System.out.println("*********");
-        System.out.println("*********");
-        System.out.println("*********");
-        System.out.println("***   ***");
-        System.out.println("***   ***");
-        System.out.println("*********");
+        System.out.println("+--------------------+");
+        System.out.println();
 
+        System.out.print("Reto numero 4:");
+        System.out.println();
+        System.out.println("    *");
+        System.out.println("   ***");
+        System.out.println("  *****");
+        System.out.println(" *******");
+        System.out.println("********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println();
+
+        System.out.print("Reto numero 5:");
+        System.out.println();
+        System.out.println("    *");
+        System.out.println("   ***");
+        System.out.println("  *****");
+        System.out.println(" *******");
+        System.out.println("********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("***   ***");
+        System.out.println("***   ***");
+        System.out.println("*********");
+        System.out.println();
     }
 }
