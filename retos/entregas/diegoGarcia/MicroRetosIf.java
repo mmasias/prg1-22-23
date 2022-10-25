@@ -55,7 +55,7 @@ public class MicroRetosIf {
         System.out.print("Escriba el coeficiente lineal de la operacion de segundo grado: ");
         coeficienteLineal = s.nextDouble();
         System.out.println();
-        System.out.print("Escriba el coeficiente cuadratico de la operacion de segundo grado: ");
+        System.out.print("Escriba el termino independiente de la operacion de segundo grado: ");
         terminoIndependiente = s.nextDouble();
         System.out.println();
 
