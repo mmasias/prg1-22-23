@@ -10,16 +10,17 @@
   <div align="center"><img width="90px" alt="Java" src="https://custom-icon-badges.demolab.com/badge/Java-007396.svg?logo=java&logoColor=white"/>
   
   <br>
-  
+
   <table align="center">
     <tr>  
       <th style="text-align: center;">Version</td>
       <th style="text-align: center;">Description</td>
       <th style="text-align: center;">Link</td>
     </tr>
-    <tr> Vanilla</td>
+    <tr>  
+      <td>Vanilla</td>
       <td>ASCII Art</td>
-      <td><a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ASCIIArt/src/ArtASCII.java">Mirror</a></td>
+      <td><a href=" https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ASCIIArt/src/ArtASCII.java">Mirror</a></td>
     </tr>
     <tr>  
       <td>Vanilla</td>
