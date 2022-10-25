@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class adivinacion {
+public class Adivinacion {
     public static void main(String[] args) {
         
         Scanner entrada = new Scanner(System.in);
