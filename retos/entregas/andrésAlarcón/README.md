@@ -20,7 +20,7 @@
     <tr>  
       <td>Vanilla</td>
       <td>ASCII Art</td>
-      <td><a href=" https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ASCIIArt/src/ArtASCII.java">Mirror</a></td>
+      <td><a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ASCIIArt/src/ArtASCII.java">Mirror</a></td>
     </tr>
     <tr>  
       <td>Vanilla</td>
