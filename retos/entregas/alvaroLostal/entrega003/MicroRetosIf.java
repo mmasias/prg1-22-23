@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class microRetosIf {
+public class MicroRetosIf {
     public static void main(String[] args) {
         //Ejercicio 1
         int aleatorio = (int) (Math.random()*2);
@@ -18,10 +18,10 @@ public class microRetosIf {
         num1 = entrada.nextDouble();
         System.out.println("Ingresa otro numero: ");
         num2 = entrada.nextDouble();
-        resultado = (num1/num2);
         if (num2 == 0) {
             System.out.println("No se puede dividir un numero entre 0");
         } else {
+            resultado = (num1/num2);
             System.out.println("El resultado de dividir " + num1 + " entre " + num2 + " da " + resultado);
         }
 
