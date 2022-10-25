@@ -15,7 +15,7 @@ public class unDibujo {
     }
 }
 
-public class unDibujo2 {
+public class unDibujo1 {
     public static void main(String[] args) {
 
         System.out.println("      *       ");
@@ -34,7 +34,7 @@ public class unDibujo2 {
 
 
 
-public class UnDibujo {
+public class UnDibujo2 {
     public static void main(String[] args){
 
 		System.out.println("+--------------------+");
@@ -85,7 +85,7 @@ public class unDibujo4 {
 
 
 
-public class unDibujo4 {
+public class unDibujo5 {
     public static void main(String[] args) {
 
         System.out.println("**********");
