@@ -12,7 +12,7 @@ public class AverageCalculator {
         System.out.println("Enter the second value");
         data_2 = lector.nextDouble();
 
-        average = (data_1+data_2)/2;
+        average = (data_1 + data_2)/2;
 
         System.out.println("The average: "+average);
 

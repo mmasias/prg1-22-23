@@ -9,7 +9,7 @@ public class AreaCircle {
 
         System.out.println("Enter the radius");
         ratio = sc.nextDouble();
-        area = 3.141592 * ratio;
+        area = Math.PI * Math.pow(ratio, 2);
 
         System.out.println("Area of Circle is: " + area); 
 
