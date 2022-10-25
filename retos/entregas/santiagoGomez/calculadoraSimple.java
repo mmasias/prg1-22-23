@@ -1,7 +1,7 @@
 package intervencionUsuario;
 import java.util.Scanner;
 
-public class calculadora{
+public class calculadoraSimple{
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
