@@ -1,4 +1,4 @@
-public class devolverCambio {
+public class DevolverCambio {
     public static void main(String[] args) {
 
         double coste, pagado, vuelta, resto, cantidad;
