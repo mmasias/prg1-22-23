@@ -2,10 +2,9 @@ import java.util.Scanner;
 public class MicroRetosIfdavid {
     public static void main (String [] args){
         System.out.println("PROBLEMA 1.Escribir un programa que simule el lanzamiento de una moneda y nos diga al ejecutarse si ha salido cara o cruz.");
-        int ladomoneda;
-        
-        ladomoneda = (int)(Math.random()*2);
-        if (ladomoneda == 0){
+        int ladoMoneda;
+        ladoMoneda = (int)(Math.random()*2);
+        if (ladoMoneda == 0){
             System.out.println("Salió cruz");
         }else{
             System.out.println("Salió cara");
