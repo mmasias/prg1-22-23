@@ -78,10 +78,9 @@ public class App {
             System.out.println("Numero de monedas de 0.5: " + monedas05);
         }
 
-        // System.out.println("Change antes de Monedas 0.2:" + change); por alguna razon
-        // aqui le quita una decima
+        // System.out.println("Change antes de Monedas 0.2:" + change); 
         monedas02 = (int) (change / 0.2);
-        change = change - (monedas02 * 0.2);
+        change = change - (monedas02 * 0.2); //Por alguna razón aquí le quita una decima
         if (monedas02 > 0) {
             System.out.println("Numero de monedas de 0.2: " + monedas02);
         }
