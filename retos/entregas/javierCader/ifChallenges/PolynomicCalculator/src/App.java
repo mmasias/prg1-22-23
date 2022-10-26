@@ -12,7 +12,7 @@ public class App {
         System.out.println("Input the value of 'c':");
         int c = scanner.nextInt();
 
-        double d = Math.pow(b, 2) - 4 * a * c;
+        double d = Math.pow(b, 2) - 4 * a * c; // Comentario
 
         if (a != 0) {
             double x1 = (-b + Math.sqrt(d)) / (2 * a);
