@@ -20,8 +20,10 @@ public class AdivinarNum {
     if (respuestadelusuario == 1 ) {
         System.out.println("Vale");
         numeropensado = numeropensado + 1;
-    } else {
+    } else if (respuestadelusuario == 0) {
         System.out.println("Vale, pero no tan alegre");
+    } else{
+        System.out.println("Te has equibocado de numero, reinicia el juego");
     }
     System.out.println(" ");
 
@@ -32,8 +34,10 @@ public class AdivinarNum {
     if (respuestadelusuario == 1 ) {
         System.out.println("Vale");
         numeropensado = numeropensado + 2;
-    } else {
+    } else if (respuestadelusuario == 0) {
         System.out.println("Vale, pero no tan alegre");
+    } else{
+        System.out.println("Te has equibocado de numero, reinicia el juego");
     }
     System.out.println(" ");
 
@@ -44,8 +48,10 @@ public class AdivinarNum {
     if (respuestadelusuario == 1 ) {
         System.out.println("Vale");
         numeropensado = numeropensado + 4;
-    } else {
+    } else if (respuestadelusuario == 0) {
         System.out.println("Vale, pero no tan alegre");
+    } else{
+        System.out.println("Te has equibocado de numero, reinicia el juego");
     }
     System.out.println(" ");
 
@@ -56,8 +62,10 @@ public class AdivinarNum {
     if (respuestadelusuario == 1 ) {
         System.out.println("Vale");
         numeropensado = numeropensado + 8;
-    } else {
+    } else if (respuestadelusuario == 0) {
         System.out.println("Vale, pero no tan alegre");
+    } else{
+        System.out.println("Te has equibocado de numero, reinicia el juego");
     }
     System.out.println(" ");
    
@@ -68,8 +76,10 @@ public class AdivinarNum {
     if (respuestadelusuario == 1 ) {
         System.out.println("Vale");
         numeropensado = numeropensado + 16;
-    } else {
+    } else if (respuestadelusuario == 0) {
         System.out.println("Vale, pero no tan alegre");
+    } else{
+        System.out.println("Te has equibocado de numero, reinicia el juego");
     }
     System.out.println(" ");
    
@@ -80,8 +90,10 @@ public class AdivinarNum {
     if (respuestadelusuario == 1 ) {
         System.out.println("Vale");
         numeropensado = numeropensado + 32;
-    } else {
+    } else if (respuestadelusuario == 0) {
         System.out.println("Vale, pero no tan alegre");
+    } else{
+        System.out.println("Te has equibocado de numero, reinicia el juego");
     }
     System.out.println(" ");
   
@@ -92,8 +104,10 @@ public class AdivinarNum {
     if (respuestadelusuario == 1 ) {
         System.out.println("Vale");
         numeropensado = numeropensado + 64;
-    } else {
+    } else if (respuestadelusuario == 0) {
         System.out.println("Vale, pero no tan alegre");
+    } else{
+        System.out.println("Te has equibocado de numero, reinicia el juego");
     }
     System.out.println(" ");
    
