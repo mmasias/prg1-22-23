@@ -21,18 +21,25 @@ public class Raices {
         System.out.println("+----------------------------------------------------+");
 
         //Se empieza a generar la ecuacion X1
+        double discriminante = (Math.pow(b, 2)) - (4*a*c);
         if (a == 0){
             System.out.println("No se puede realizar la operacion X1, no se puede dividir por 0");
-        } else {
-            double resultado = (-b + (Math.sqrt((Math.pow(b, 2)) - (4*a*c))))/(2*a);
+        } else if (discriminante < 0) {
+            System.out.println("No se puede realizar la operacion X1, no se puede sacar raiz de un negatico");
+        }
+        else {
+            double resultado = (-b + (Math.sqrt(discriminante)))/(2*a);
             System.out.println("La X1 es: " + resultado);
         }
 
         //Se empieza a generar la ecuacion X2
         if (a == 0){
             System.out.println("No se puede realizar la operacion X2, no se puede dividir por 0");
-        } else {
-            double resultado = (-b - (Math.sqrt((Math.pow(b, 2)) - (4*a*c))))/(2*a);
+        } else if (discriminante < 0) {
+            System.out.println("No se puede realizar la operacion X2, no se puede sacar raiz de un negatico");
+        }
+        else {
+            double resultado = (-b - (Math.sqrt(discriminante)))/(2*a);
             System.out.println("La X2 es: " + resultado);
         }
         
