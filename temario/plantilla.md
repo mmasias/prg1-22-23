@@ -38,7 +38,7 @@ public class EscaladoAleatorios {
 
         Scanner entrada = new Scanner(System.in);
 
-        int numeroAleatorio;
+        	int numeroAleatorio;
 		final int NUMERO_MAXIMO = 10;
 		final int NUMERO_MINIMO = 5;
 		
