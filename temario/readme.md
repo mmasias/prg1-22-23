@@ -5,8 +5,8 @@
   - ☑️ Salida por consola
   - ☑️ Variables
   - ☑️ Entrada por consola
-  - 🔲 Estructuras de control
-    - 🔲 Alternativas
+  - 🏗️ Estructuras de control
+    - ☑️ Alternativas
     - 🔲 Repetitivas
   - 🔲 Matrices
 
