@@ -56,5 +56,6 @@ public class Adivinacion {
         
         System.out.println("Su numero es " + numero);
 
+        entrada.close();
     }
 }
