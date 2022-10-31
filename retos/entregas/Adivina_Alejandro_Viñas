@@ -1,0 +1,51 @@
+
+// Programa que permite al usuario adivinar un nº creado aleatoriamente por el ordenador
+import java.util.Scanner;
+
+
+public class adivina {
+    public static void main( String[] args) {
+
+        Scanner lectura = new Scanner (System.in);
+        int suerte = (int)(Math.random()*100+1);
+        int intento = 0;
+        int restos = 6;
+        int solu = 0;
+        
+        System.out.println("Adivina el número que estoy pensando en solo 5 intentos");
+        System.out.println("El número va de 1 a 100");
+
+        while (solu != suerte) {
+            
+            int dato = lectura.nextInt();
+            solu=dato;
+            if (restos == 1){
+                System.out.println("Te has quedado sin intentos, el número era: "+suerte);
+                
+            }else if(restos!=1){
+                if (dato<suerte){
+                    restos=restos-1;
+                    intento=intento+1;
+                    System.out.println("El numero que has escrito es menor");
+                    System.out.println("Te quedan "+restos+" intentos");
+                    System.out.println("Vuelve a intentarlo");
+                    
+                }else if(dato > suerte){
+                    restos=restos-1;
+                    intento=intento+1;
+                    System.out.println("El numero que has escrito es mayor");
+                    System.out.println("Te quedan "+restos+" intentos");
+                    System.out.println("Vuelve a intentarlo");
+                    
+                }
+            }
+                        
+        }
+        while (solu == suerte){
+            System.out.println("FELICIDADES HAS ADIVINADO EL Nº EN "+intento+" INTENTOS");
+            break;
+        }
+
+    }
+    
+}
