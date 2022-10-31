@@ -26,7 +26,7 @@ public class MicroRetosIf {
         }
 
         //Ejercicio 3
-        double a, b, c, raiz, positivos, negativos;
+        double a, b, c, raiz, positivos, negativos, comprobacion;
         System.out.println("Dime el valor de a: ");
         a = entrada.nextDouble();
         System.out.println("Dime el valor de b: ");
@@ -34,8 +34,10 @@ public class MicroRetosIf {
         System.out.println("Dime el valor de c: ");
         c = entrada.nextDouble();
 
+
+        comprobacion = ((b*b)-4*a*c);
         raiz = Math.sqrt(Math.pow(b, 2)-4 * a * c);
-        if(raiz <= 0){
+        if(comprobacion <= 0){
             System.out.println("La raiz no puede ser negativa");
         }else{
             positivos = (-b + raiz)/(2*a);
