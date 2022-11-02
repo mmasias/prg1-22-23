@@ -10,7 +10,10 @@ El retoForIf consiste en obtener cada uno de los 21 patrones de imágenes plante
 
 # Plantilla
 
-```
+Debajo se alcanza la plantilla que se ha de utilizar para desarrollar el reto. Lo que hay que editar para conseguir los patrones solicitados es el código que se encuentra entre los comentarios.
+
+
+```java
 public class retoForIf {
     public static void main(String[] args) {
         int dimension;
