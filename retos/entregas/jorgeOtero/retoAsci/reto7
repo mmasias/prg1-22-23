@@ -8,7 +8,7 @@ public class Asci {
 
                 if (
                 // El código desde aqui
-                    i==j && j==i
+                    i==j
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");
