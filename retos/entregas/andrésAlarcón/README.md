@@ -83,13 +83,13 @@
       <td style="text-align: center;"><a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/NumberGuesser/src/NumberGuesser.java" target="_blank">Mirror</a></td>
     </tr>
     <tr>  
-      <td style="text-align: center;">Extra</td>
-      <td style="text-align: center;">Money Change</td>
-      <td style="text-align: center;"><a href="#" target="_blank">Mirror</a></td>
+      <td style="text-align: center;">Vanilla</td>
+      <td style="text-align: center;">ForIf</td>
+      <td style="text-align: center;"><a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/ForIfChallenge.java" target="_blank">Mirror</a></td>
     </tr>
     <tr>  
-      <td style="text-align: center;">Extra</td>
-      <td style="text-align: center;">Number Guesser</td>
+      <td style="text-align: center;"></td>
+      <td style="text-align: center;"></td>
       <td style="text-align: center;"><a href="#" target="_blank">Mirror</a></td>
     </tr>
     
