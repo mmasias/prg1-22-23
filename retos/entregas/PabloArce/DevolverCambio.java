@@ -4,11 +4,11 @@ public class devolverCambio{
         Scanner entry = new Scanner (System.in);
         System.out.println("-".repeat(30));
         System.out.print("Monto entregado (en euros): ");
-        double montoEntregado = entry.nextDouble();
+        Double montoEntregado = entry.nextDouble();
         System.out.print("Monto a pagar (en euros): ");
         Double montoPagar = entry.nextDouble();
         System.out.println("-".repeat(30));
-        double diff = montoEntregado-montoPagar;
+        Double diff = montoEntregado-montoPagar;
         if (diff>=500){
             int BQUIN = (int)(diff) / 500; System.out.println(BQUIN+" billete(s) de 500.");
             diff-=BQUIN*500;}
