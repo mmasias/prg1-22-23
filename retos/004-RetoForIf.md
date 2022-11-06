@@ -1,6 +1,7 @@
 # retoForIf
 
-[reto forIf](https://docs.google.com/spreadsheets/d/1r7Sn8z3HDpUO8PPNc_eL3pTRCEHZ1gl8ybdL6D6aSLw/edit?usp=sharing)
+El retoForIf consiste en obtener cada uno de los 21 patrones de imágenes planteados en 
+[esta hoja de cálculo](https://docs.google.com/spreadsheets/d/1r7Sn8z3HDpUO8PPNc_eL3pTRCEHZ1gl8ybdL6D6aSLw/edit?usp=sharing), utilizando dos bucles for anidados y un conjunto de condiciones que relacionen lógicamente las variables que controlan estos bucles. 
 
 
 |Planteado|Solución
@@ -9,7 +10,10 @@
 
 # Plantilla
 
-```
+Debajo se alcanza la plantilla que se ha de utilizar para desarrollar el reto. Lo que hay que editar para conseguir los patrones solicitados es el código que se encuentra entre los comentarios.
+
+
+```java
 public class retoForIf {
     public static void main(String[] args) {
         int dimension;
