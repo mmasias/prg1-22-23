@@ -7,11 +7,13 @@ public class AdivinaNumero{
         trampa=(int)(Math.random()*5+1);
         if (Math.random()<=0.5){trampa-=(2*trampa);}
         for (int i=0;i<5;i++){
-            System.out.print("Dime un número del uno al 100: "); intento=entry.nextInt();
+            System.out.print("Dime un número del uno al 100: ");
+            intento=entry.nextInt();
             // Es menor, mayor o has acertado
             if (intento<numeroAleatorio){System.out.println("Es mayor.");}
             else if (numeroAleatorio<intento){System.out.println("Es menor.");}
-            else{System.out.println("Has acertado en el intento número "+(i+1)+".");break;} 
+            else{System.out.println("Has acertado en el intento número "+(i+1)+".");
+                break;} 
             //
             ////Caliente, frio o tibio
             int aproximacion=numeroAleatorio-intento;
@@ -24,8 +26,10 @@ public class AdivinaNumero{
                     if (numeroAleatorio>100){numeroAleatorio-=(numeroAleatorio-100);}
                 //
             }
-            else if (aproximacion<=10 & aproximacion>=-10){System.out.println("Tibio.");contadorCaliente=0;}
-            else{System.out.println("Frio.");contadorCaliente=0;}
+            else if (aproximacion<=10 & aproximacion>=-10){System.out.println("Tibio.");
+                contadorCaliente=0;}
+            else{System.out.println("Frio.");
+                contadorCaliente=0;}
             ////
             if (i==4){System.out.println("No te quedan mas intentos, has perdido. Era el: "+numeroAleatorio);}
         }
