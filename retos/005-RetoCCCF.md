@@ -11,7 +11,6 @@ Cuando una caja está libre (es decir, no está atendiendo a ningún cliente), p
 |Escenario
 |-|
 |![](../images/retoCCCF.png)
-|
 
 Desarrolle un programa que modele y simule el sistema explicado líneas arriba, teniendo en cuenta las condiciones indicadas.
 
