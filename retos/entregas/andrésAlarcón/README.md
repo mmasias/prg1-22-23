@@ -86,47 +86,47 @@
       <td style="text-align: center;">Vanilla</td>
       <td style="text-align: center;">ForIf</td>
       <td style="text-align: center;">
-      <p>1<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf1.java" target="_blank">Mirror</a>
+      <p>1 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf1.java" target="_blank">Mirror</a>
       </p>
-      <p>2<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf2.java" target="_blank">Mirror</a>
+      <p>2 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf2.java" target="_blank">Mirror</a>
       </p>
-      <p>3<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf3.java" target="_blank">Mirror</a>
+      <p>3 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf3.java" target="_blank">Mirror</a>
       </p>
-      <p>4<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf4.java" target="_blank">Mirror</a>
+      <p>4 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf4.java" target="_blank">Mirror</a>
       </p>
-      <p>5<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf5.java" target="_blank">Mirror</a>
+      <p>5 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf5.java" target="_blank">Mirror</a>
       </p>
-      <p>6<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf6.java" target="_blank">Mirror</a>
+      <p>6 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf6.java" target="_blank">Mirror</a>
       </p>
-      <p>7<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf7.java" target="_blank">Mirror</a>
+      <p>7 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf7.java" target="_blank">Mirror</a>
       </p>
-      <p>8<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf8.java" target="_blank">Mirror</a>
+      <p>8 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf8.java" target="_blank">Mirror</a>
       </p>
-      <p>9<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf9.java" target="_blank">Mirror</a>
+      <p>9 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf9.java" target="_blank">Mirror</a>
       </p>
-      <p>10<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf10.java" target="_blank">Mirror</a>
+      <p>10 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf10.java" target="_blank">Mirror</a>
       </p>
-      <p>11<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf11.java" target="_blank">Mirror</a>
+      <p>11 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf11.java" target="_blank">Mirror</a>
       </p>
-      <p>12<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf12.java" target="_blank">Mirror</a>
+      <p>12 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf12.java" target="_blank">Mirror</a>
       </p>
-      <p>13<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf13.java" target="_blank">Mirror</a>
+      <p>13 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf13.java" target="_blank">Mirror</a>
       </p>
-      <p>14<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf13.java" target="_blank">Mirror</a>
+      <p>14 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf13.java" target="_blank">Mirror</a>
       </p>
-      <p>15<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf15.java" target="_blank">Mirror</a>
+      <p>15 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf15.java" target="_blank">Mirror</a>
       </p>
-      <p>16<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf16.java" target="_blank">Mirror</a>
+      <p>16 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf16.java" target="_blank">Mirror</a>
       </p>
-      <p>17<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf17.java" target="_blank">Mirror</a>
+      <p>17 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf17.java" target="_blank">Mirror</a>
       </p>
-      <p>18<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf18.java" target="_blank">Mirror</a>
+      <p>18 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf18.java" target="_blank">Mirror</a>
       </p>
-      <p>19<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf19.java" target="_blank">Mirror</a>
+      <p>19 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf19.java" target="_blank">Mirror</a>
       </p>
-      <p>20<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf20.java" target="_blank">Mirror</a>
+      <p>20 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf20.java" target="_blank">Mirror</a>
       </p>
-      <p>21<a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf21.java" target="_blank">Mirror</a>
+      <p>21 <a href="https://github.com/AndrextA/prg1-22-23/blob/main/retos/entregas/andr%C3%A9sAlarc%C3%B3n/ForIfChallenge/src/classes/ForIf21.java" target="_blank">Mirror</a>
       </p>
       </td>
     </tr>
