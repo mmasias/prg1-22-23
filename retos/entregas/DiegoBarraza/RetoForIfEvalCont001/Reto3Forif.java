@@ -1,4 +1,4 @@
-public class reto3if {
+public class reto3Forif {
     public static void main(String[]args){
         int dimension;
         dimension=21;
