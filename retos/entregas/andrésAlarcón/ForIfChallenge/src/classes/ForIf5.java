@@ -10,7 +10,7 @@ public class ForIf5 {
 
                 if (
                 // El código desde aqui
-                    i==2 && j==2
+                i==11 && j==11 
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");

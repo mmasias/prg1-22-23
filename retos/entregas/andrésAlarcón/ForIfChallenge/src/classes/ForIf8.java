@@ -10,7 +10,7 @@ public class ForIf8 {
 
                 if (
                 // El código desde aqui
-                    i==2 && j==2
+                    (i == 22 - j)
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");

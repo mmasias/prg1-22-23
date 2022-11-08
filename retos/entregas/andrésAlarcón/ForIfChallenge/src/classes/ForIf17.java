@@ -10,7 +10,7 @@ public class ForIf17 {
 
                 if (
                 // El código desde aqui
-                    i==2 && j==2
+                    (i==2 && (j>=2 && j<=20)) || (i==20 && (j>=2 && j<=20)) || (j==2 && (i>=2 && i<=20)) || (j==20 && (i>=2 && i<=20))
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");
