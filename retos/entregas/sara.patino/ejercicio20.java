@@ -1,4 +1,4 @@
-public class class20{
+public class ejercicio20{
     public static void main(String[] args){
         int x=5;
     for (int i=1; i<=21;i= i+1){
