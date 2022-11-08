@@ -40,3 +40,16 @@
 #### Micro-retos
 
 * Desarrolle los retos incluidos en [esta página](../retos/002-MicroRetosVariables.md).
+
+### Estructuras de control alternativas
+
+- Concepto de bloque de código
+- Teorema del programa estructurado
+- Concepto de estructuras de control: estructuras de control alternativas
+- if() / if() else / if() else if() else if() ... else
+- Operadores relacionales y operadores lógicos
+- Errores comunes
+
+#### Micro-retos
+
+* Desarrolle los retos incluidos en [esta página](../retos/003-MicroRetosIf.md).
