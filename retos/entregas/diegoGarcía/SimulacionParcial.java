@@ -3,7 +3,7 @@ package retos.entregas.diegoGarcía;
 public class SimulacionParcial {
     public static void main (String[]args){
 
-        int tiempoTotal = 60;                                       //CAMIARLO A 12*60
+        int tiempoTotal = 10;                                       //CAMIARLO A 12*60
         double probabilidadLlegada; 
         int cola = 0;
         int caja1 = 0;
@@ -11,6 +11,8 @@ public class SimulacionParcial {
         int caja3 = 0;
         int caja4 = 0;
         int contadorColaVacia = 0;
+        int contadorPersonasAtendidas = 0;
+        int contadorItemsVendidos = 0;
 
 
         for(int minuto = 1; minuto<=tiempoTotal ; minuto++){
@@ -35,7 +37,9 @@ public class SimulacionParcial {
             if(cola > 0 && caja1 <= 0){
 
                 cola--;
+                contadorPersonasAtendidas++;
                 caja1 = (int)(Math.random()*10)+5;
+                contadorItemsVendidos+=caja1;
                 System.out.println(" --> Pasa 1 persona a la caja 1 llevando "+ caja1 +" items");
             }
 
@@ -47,7 +51,9 @@ public class SimulacionParcial {
             if(cola > 0 && caja2 <= 0){
 
                 cola--;
+                contadorPersonasAtendidas++;
                 caja2 = (int)(Math.random()*10)+5;
+                contadorItemsVendidos+=caja2;
                 System.out.println(" --> Pasa 1 persona a la caja 2 llevando "+ caja2 +" items");
             }
 
@@ -59,7 +65,9 @@ public class SimulacionParcial {
             if(cola > 0 && caja3 <= 0){
 
                 cola--;
+                contadorPersonasAtendidas++;
                 caja3 = (int)(Math.random()*10)+5;
+                contadorItemsVendidos+=caja3;
                 System.out.println(" --> Pasa 1 persona a la caja 3 llevando "+ caja3 +" items");
             }
 
@@ -71,7 +79,9 @@ public class SimulacionParcial {
             if(cola > 0 && caja4 <= 0){
 
                 cola--;
+                contadorPersonasAtendidas++;
                 caja4 = (int)(Math.random()*10)+5;
+                contadorItemsVendidos+=caja4;
                 System.out.println(" --> Pasa 1 persona a la caja 4 llevando "+ caja4 +" items");
             }
 
@@ -87,5 +97,8 @@ public class SimulacionParcial {
         }
         System.out.println("Fin de la jornada");
         System.out.println("Han habido "+ contadorColaVacia +" minutos con la cola vacia");
+        System.out.println("Al finalizar el dia quedaban "+ cola +" personas en la cola");
+        System.out.println("Se atendieron a "+ contadorPersonasAtendidas +" personas el dia de hoy");
+        System.out.println("Se vendieron "+ contadorItemsVendidos +" items");
     }
 }
