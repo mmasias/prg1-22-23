@@ -1,6 +1,6 @@
 <header>
   <h1 align="center" style="margin: 0;">
-    Programmin Challenges
+    Programming Challenges
     <img width="40px" alt="programmer" src="https://cdn-icons-png.flaticon.com/512/6062/6062646.png"/>
   </h1>
 </header>
