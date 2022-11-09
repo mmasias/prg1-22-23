@@ -1,4 +1,4 @@
-public class Reto9 {
+public class reto9 {
         public static void main(String[] args) {
             int dimension;
             dimension = 21;
