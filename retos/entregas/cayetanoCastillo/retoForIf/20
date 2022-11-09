@@ -8,7 +8,8 @@ public class retoForIf {
 
                 if (
                 // El código desde aqui
-                     i==2 && j==2
+                     i==j+3 || i==j+7 || i==j+11 || i==j+15 || i==j+19 ||
+                     j==i+1 ||j==i+5 ||j==i+9 ||j==i+13 ||j==i+17 ||j==i+21
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");
