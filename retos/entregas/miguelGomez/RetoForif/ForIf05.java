@@ -1,5 +1,5 @@
 
-public class ForIf5 {
+public class ForIf05 {
     public static void main(String[] args) {
         int dimension;
         dimension = 21;
