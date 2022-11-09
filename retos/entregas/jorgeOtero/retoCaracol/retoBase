@@ -1,0 +1,52 @@
+public class Caracol {
+    public static void main(String[] args) {
+        int dimension=22;
+        int altura=(int)(Math.random() * (20-10+1))+ 10;
+        int subir=0; 
+        int bajar=0; 
+        int contadorDias =0;
+     do {   
+
+        System.out.println("DÍA "+ (contadorDias) );
+
+        
+        if(contadorDias>0){
+
+            subir = (int)(Math.random() * (4-1+1))+ 1;
+            bajar = (int)(Math.random() * (2-0+1))+ 0;
+            altura = (altura+bajar) - subir;
+    
+            System.out.print("Ha subido "+ subir + " metro/s __");
+            System.out.println("__Ha bajado "+ bajar + " metro/s");
+    
+            }
+
+        for (int j = 0; j <= dimension; j = j + 1) 
+
+
+            if (j==0) {
+                 if (j==0 && altura<=0){
+                    System.out.println("[__]   _@)_/’      [__]");
+                 }
+                   else{ 
+                    System.out.println("[__]              [__]");
+            } 
+            
+            }
+            else if (j==altura){
+                System.out.println("  []    _@)_/’    [] _ __"+ (j));
+            }
+            else if(j==dimension){
+                System.out.println("  [][][][][][][][][]");
+            }
+
+            else {
+                System.out.println("  []:. :. :. :. :.[] _ __" +(j));
+            }  
+            System.out.println();
+
+        contadorDias ++;
+
+        }while (altura>=1 || contadorDias<50);
+    }
+}
