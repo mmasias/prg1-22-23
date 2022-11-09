@@ -3,16 +3,19 @@ package retos.entregas.diegoGarcía;
 public class SimulacionParcial {
     public static void main (String[]args){
 
-        int tiempoTotal = 10;                                       //CAMIARLO A 12*60
+        int tiempoTotal = 240;                                       //CAMIARLO A 12*60
         double probabilidadLlegada; 
         int cola = 0;
         int caja1 = 0;
         int caja2 = 0;
         int caja3 = 0;
         int caja4 = 0;
+        int caja5 = 0;
+        boolean abrirCaja5 = false;
         int contadorColaVacia = 0;
         int contadorPersonasAtendidas = 0;
         int contadorItemsVendidos = 0;
+        int contadorPersonasCaja5 = 0;
 
 
         for(int minuto = 1; minuto<=tiempoTotal ; minuto++){
@@ -21,7 +24,7 @@ public class SimulacionParcial {
 
             System.out.print(" Minuto "+ minuto);
 
-            if(probabilidadLlegada <= 0.4){
+            if(probabilidadLlegada <= 0.5){
                 System.out.print(" --> Llego una persona");
                 cola++;
 
@@ -88,6 +91,33 @@ public class SimulacionParcial {
             if (caja4 > 0){
                 caja4--;
                 System.out.println(" La caja 4 atiende un item, quedan: "+ caja4+ " items");
+            }
+
+            if(cola > 15 && abrirCaja5 == false){
+                abrirCaja5 = true;
+                System.out.println(" Se abre la caja 5");
+            }
+
+            if(abrirCaja5 && caja5 == 0){
+                if(cola>0){
+                    contadorPersonasCaja5++;
+                    cola--;
+                    contadorPersonasAtendidas++;
+                    caja5 = (int)(Math.random()*10)+5;
+                    contadorItemsVendidos+=caja5;
+                    System.out.println(" --> Pasa 1 persona a la caja 5 llevando "+ caja5 +" items ");
+                }
+            }
+
+            if(caja5 > 0){
+                caja5--;
+                System.out.println(" La caja 5 atiende un item, quedan: "+ caja5+ " items");
+            }
+
+            if(abrirCaja5 && contadorPersonasCaja5 > 5 && caja5 == 0){
+                abrirCaja5 = false;
+                contadorPersonasCaja5 = 0;
+                System.out.println(" Se cierra la caja 5");
             }
 
             
