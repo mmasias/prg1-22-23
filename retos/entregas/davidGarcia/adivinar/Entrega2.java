@@ -1,4 +1,4 @@
-public class Entrega2 {
+public class Entrega2  {
     public static void main(String[]args){
      //El Ejercicio 1 consiste en que conocidos dos números, desarrollar un programa que calcule y muestre su promedio
         System.out.println("--------------Ejercicio 1--------------");
