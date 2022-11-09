@@ -15,6 +15,10 @@ public class Caracol {
             subir = (int)(Math.random() * (4-1+1))+ 1;
             bajar = (int)(Math.random() * (2-0+1))+ 0;
             altura = (altura+bajar) - subir;
+            
+            if (altura>=suelo){
+                altura=suelo-1;
+            }
     
             System.out.print("Ha subido "+ subir + " metro/s __");
             System.out.println("__Ha bajado "+ bajar + " metro/s");
@@ -47,6 +51,6 @@ public class Caracol {
 
         contadorDias ++;
 
-        }while (altura>=1 || contadorDias<50);
+        }while (altura>=1 && contadorDias<=50);
     }
 }
