@@ -10,9 +10,9 @@ Supongamos una implementación del juego de acuerdo a las siguientes pautas:
 
 <div align="center">
 
-|Presentación sugerida 
-|-
-| ![](../images/retoWhatcAMole.png)
+|Juego|Presentación sugerida 
+|-|- 
+|![](../images/retoWhatcAMole001.png)|![](../images/retoWhatcAMole.png)
 
 </div>
 
