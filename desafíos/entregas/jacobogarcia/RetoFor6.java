@@ -1,4 +1,4 @@
-public class reto6Forif {
+public class forIfEjercicio6 {
     public static void main(String[]args){
         int dimension;
         dimension=21;
