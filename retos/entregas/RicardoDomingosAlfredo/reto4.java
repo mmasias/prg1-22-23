@@ -1,5 +1,5 @@
 
-public class Reto4 {
+public class reto4 {
         public static void main(String[] args) {
             int dimension;
             dimension = 21;
