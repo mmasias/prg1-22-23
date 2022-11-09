@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SimulacionParcial {
     public static void main (String[]args){
 
-        int tiempoTotal = 12*60;                                      
+        int tiempoTotal = 200;                                      
         double probabilidadLlegada; 
         int cola = 0;
         int caja1 = 0;
@@ -83,14 +83,27 @@ public class SimulacionParcial {
                 probabilidadLlegada = Math.random();
     
                 System.out.print(" Minuto "+ minuto);
-    
-                if(probabilidadLlegada <= 0.4){
-                    System.out.print(" --> Llego una persona");
-                    cola++;
-    
+                
+                if(minuto >= 120 && minuto < 240 || minuto >= 480 && minuto < 600){
+                    System.out.println(" ES HORA PUNTA");
+                    if(probabilidadLlegada <= 0.7){
+                        System.out.print(" --> Llego una persona");
+                        cola++;
+        
+                    }else{
+                        System.out.print("");
+                    }
                 }else{
-                    System.out.print("");
+                    System.out.println();
+                    if(probabilidadLlegada <= 0.4){
+                        System.out.print(" --> Llego una persona");
+                        cola++;
+        
+                    }else{
+                        System.out.print("");
+                    }
                 }
+                
                 System.out.println(" --> Personas en cola: "+cola);
     
                 if(cola == 0){
