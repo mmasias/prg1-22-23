@@ -8,7 +8,7 @@ public class retoForIf {
 
                 if (
                 // El código desde aqui
-                     i==2 && j==2
+                     i<=5 && j<=5
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");
