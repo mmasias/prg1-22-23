@@ -7,7 +7,7 @@
   - ☑️ Entrada por consola
   - 🏗️ Estructuras de control
     - ☑️ Alternativas
-    - 🔲 Repetitivas
+    - ☑️ Repetitivas
   - 🔲 Matrices
 
 Con todo esto, **[a día de hoy deberíamos saber...](aDiaDeHoy.md)**
