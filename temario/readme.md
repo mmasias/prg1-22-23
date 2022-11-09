@@ -1,7 +1,7 @@
 # Temario
 
 - ☑️ Conceptos básicos de algorítmica
-- 🔲 Programación en Java
+- 🔲 Programación estructurada en Java
   - ☑️ Salida por consola
   - ☑️ Variables
   - ☑️ Entrada por consola
