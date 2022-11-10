@@ -1,7 +1,49 @@
 public class CCCF {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    }
+	public static void main(String[] args) throws Exception {
+
+		int elapsedTime = 1 * 60, inLine = 0, checkoutServiceOne = 0;
+
+		double arriveProbability;
+
+		for (int minute = 1; minute <= elapsedTime; minute = minute + 1) {
+
+			System.out.println("Minute " + minute );
+
+			arriveProbability = Math.random();
+
+            	if (arriveProbability < 0.4) {
+				    System.out.println("- A costumer arrived");
+					inLine = inLine + 1;
+				} else {
+					System.out.println("");
+				
+				}
+
+				System.out.println("Costumers in queue " + inLine);
+
+				if (checkoutServiceOne <= 0 && inLine>0) {
+					inLine = inLine - 1;
+					checkoutServiceOne = (int) (Math.random()*((10-5)+1))+5;
+					System.out.println("- A costumer goes to the checkoutServiceOne with [" + checkoutServiceOne + "] items" );
+
+				}
+
+				if (checkoutServiceOne>0){
+					checkoutServiceOne = checkoutServiceOne - 1;
+					System.out.println("- The checkoutServiceOne process an item");
+				}
+
+		}
+
+		System.out.println("Summary of the day");
+		System.out.println("══════════════════════════");
+		System.out.println("Minutes with empty queue: ");
+		System.out.println("Costumers in queue at closing: " + inLine);
+		System.out.println("Served Costumers: ");
+		System.out.println("Items sold during the day: ");
+
+
+	}
 }
 
 
