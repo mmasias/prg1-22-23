@@ -28,7 +28,7 @@
   |Vanilla|Quadratic Equation Solver|[Mirror](QuadraticEquationSolver/src/QuadraticEquationSolver.java)
   |Vanilla|Money Change|[Mirror](MoneyChange/src/MoneyChange.java)
   |Vanilla|ForIf|[1](ForIfChallenge/src/classes/ForIf1.java) [2](ForIfChallenge/src/classes/ForIf2.java) [3](ForIfChallenge/src/classes/ForIf3.java) [4](ForIfChallenge/src/classes/ForIf4.java) [5](ForIfChallenge/src/classes/ForIf5.java) [6](ForIfChallenge/src/classes/ForIf6.java) [7](ForIfChallenge/src/classes/ForIf7.java) [8](ForIfChallenge/src/classes/ForIf8.java) [9](ForIfChallenge/src/classes/ForIf9.java) [10](ForIfChallenge/src/classes/ForIf10.java) [11](ForIfChallenge/src/classes/ForIf11.java) [12](ForIfChallenge/src/classes/ForIf12.java) <br> [13](ForIfChallenge/src/classes/ForIf13.java) [14](ForIfChallenge/src/classes/ForIf14.java) [15](ForIfChallenge/src/classes/ForIf15.java) [16](ForIfChallenge/src/classes/ForIf16.java) [17](ForIfChallenge/src/classes/ForIf17.java) [18](ForIfChallenge/src/classes/ForIf18.java) [19](ForIfChallenge/src/classes/ForIf19.java) [20](ForIfChallenge/src/classes/ForIf20.java) [21](ForIfChallenge/src/classes/ForIf21.java)
-  |||
+  |Vanilla|CCCF|[Mirror](CCCF/src/CCCF.java)
   |||
   |||
   |||
