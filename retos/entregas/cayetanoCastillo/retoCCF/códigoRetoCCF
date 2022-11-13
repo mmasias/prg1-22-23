@@ -21,7 +21,7 @@ public class simulacionParcial {
 		itemsRestantes = 0;
 		itemsVendidos = 0;
 		minutosDesperdiciados = 0;
-		
+		 
 		unaCola = 0;
 			personasCola = unaCola;
 		laCaja1 = 0;
