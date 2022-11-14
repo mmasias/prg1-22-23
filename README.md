@@ -5,7 +5,8 @@ Repo de materiales y proyectos de la asignatura **Programación I** del [Grado d
 ## Curso [22][23]
 
 * [Temario](./temario)
-* [Proyectos que abordaremos](docs/proyectos.md).
+* [Proyectos que abordaremos](docs/proyectos.md)
+* [Retos!](retos/readme.md)
 
 
 ## Herramientas
