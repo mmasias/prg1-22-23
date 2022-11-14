@@ -11,7 +11,7 @@ public class CCCF1 {
         double probaPersona = 1 + (Math.random() * 10);
         int prob1 = (int)probaPersona;
 
-            if (prob1 <= 4){
+            if (prob1 <= 6){
                 colaActual = colaActual + 1; 
             }else{
                 colaActual = colaActual + 0;
