@@ -14,13 +14,13 @@ public class CCCF2 {
         double probaPersona = 1 + (Math.random() * 10);
         int prob1 = (int)probaPersona;
 
-            if (prob1 <= 4){
+            if (prob1 <= 6){
                 colaActual = colaActual + 1; 
             }else{
                 colaActual = colaActual + 0;
             }
 
-            if (prob1 <= 4){
+            if (prob1 <= 6){
                 persQueHanLlegado = persQueHanLlegado + 1; 
             }else{
                 persQueHanLlegado = persQueHanLlegado + 0;
@@ -80,7 +80,7 @@ public class CCCF2 {
             }
 
 
-            if (prob1 <= 4){
+            if (prob1 <= 6){
                 System.out.println("MINUTO" + ia + " - Ha llegado alguien. - En cola: " + colaActual);
                 System.out.println("Caja 1: ["+ caja1 + "]" + "  Caja 2: ["+ caja2 + "]" +"  Caja 3: ["+ caja3 + "]" + "  Caja 4: ["+ caja4 + "]");
                 System.out.println("-----------------------------------------------------");
