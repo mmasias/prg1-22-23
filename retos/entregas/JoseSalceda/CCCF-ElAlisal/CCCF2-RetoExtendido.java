@@ -30,7 +30,7 @@ public class CCCF2 {
 
             if (colaActual >= 1){ 
                 if (caja1 == 0){
-                    double cantidadObjetos = Math.floor(Math.random() * 10 + 6);
+                    double cantidadObjetos = Math.floor(Math.random() * 10 + 5);
                     int cant = (int)cantidadObjetos;
                 colaActual = colaActual - 1;
                 caja1 = caja1 + cant; 
