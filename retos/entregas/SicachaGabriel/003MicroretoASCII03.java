@@ -1,4 +1,4 @@
-public class Microreto03 {
+public class MicroretoA03 {
     public static void main(String args[]){
         System.out.println("+--------------------+");
         System.out.println("|**  **  **  **  **  |");
