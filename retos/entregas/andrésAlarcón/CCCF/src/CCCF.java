@@ -64,8 +64,8 @@ public class CCCF {
 
 				if (checkoutExtra <= 0 && checkoutExtraOpen) {
 					costumersInQueue = costumersInQueue - 1;
-                    attendedCostumers = attendedCostumers + 1;
-                    checkoutExtra = (int) (Math.random()*((10-5)+1))+5;
+					attendedCostumers = attendedCostumers + 1;
+					checkoutExtra = (int) (Math.random()*((10-5)+1))+5;
 				}
 
 				
@@ -95,7 +95,7 @@ public class CCCF {
 
 				if (checkoutExtra > 0) {
 					checkoutExtra = checkoutExtra - 1;
-                    itemsSold = itemsSold + 1;
+					itemsSold = itemsSold + 1;
 				}
 
 

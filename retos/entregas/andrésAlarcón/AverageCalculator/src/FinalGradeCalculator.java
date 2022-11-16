@@ -6,9 +6,9 @@ public class FinalGradeCalculator {
         Scanner lector = new Scanner(System.in);
 
         double finalExam, midtermExam, continuousAssessment, teacherEvaluation, finalGrade;
-        double percentFinalExman, percentMidtermExam, percentContinuousAssessment, percentTeacherEvaluation;
+        double percentFinalExam, percentMidtermExam, percentContinuousAssessment, percentTeacherEvaluation;
 
-        percentFinalExman = 0.5;
+        percentFinalExam = 0.5;
         percentMidtermExam = 0.25;
         percentContinuousAssessment = 0.2;
         percentTeacherEvaluation = 0.05;
