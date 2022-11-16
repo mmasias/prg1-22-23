@@ -12,9 +12,9 @@ public class AreaTriangle {
         System.out.println("Enter the heigth");
         heigth = sc.nextDouble();
 
-        area = (base * heigth)/2;
+        area = (base * heigth) / 2;
 
-        System.out.println("Area of Triangle is: " + area); 
+        System.out.println("Area of Triangle is: " + area);
 
         sc.close();
 

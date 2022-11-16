@@ -4,7 +4,7 @@ public class MaxNumberAdvanced {
     public static void main(String[] args) throws Exception {
 
         Scanner sc = new Scanner(System.in);
-        
+
         int numberOne;
         int numberTwo;
         int maxNumber;
@@ -15,17 +15,16 @@ public class MaxNumberAdvanced {
         numberTwo = sc.nextInt();
 
         if (numberOne > numberTwo) {
-                maxNumber = numberOne;
-            } else if (numberTwo > numberOne) {
-                maxNumber = numberTwo;
-            } else {
-                maxNumber = numberOne;
-                System.out.println("Son iguales");
-            }
+            maxNumber = numberOne;
+        } else if (numberTwo > numberOne) {
+            maxNumber = numberTwo;
+        } else {
+            maxNumber = numberOne;
+            System.out.println("Son iguales");
+        }
         System.out.println("El numero mayor es " + maxNumber);
 
         sc.close();
-        
 
     }
 }

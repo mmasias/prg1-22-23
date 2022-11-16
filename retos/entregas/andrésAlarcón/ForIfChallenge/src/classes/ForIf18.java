@@ -10,7 +10,7 @@ public class ForIf18 {
 
                 if (
                 // El código desde aqui
-                    (i < 6 & j < 6)
+                (i < 6 & j < 6)
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");

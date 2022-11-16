@@ -14,7 +14,7 @@ public class AreaRectangle {
 
         area = base * heigth;
 
-        System.out.println("Area of Rectangle is: " + area); 
+        System.out.println("Area of Rectangle is: " + area);
 
         sc.close();
     }

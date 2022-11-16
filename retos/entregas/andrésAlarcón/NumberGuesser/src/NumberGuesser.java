@@ -1,16 +1,17 @@
 import java.util.Scanner;
 
-
 public class NumberGuesser {
     public static void main(String[] args) throws Exception {
-        
+
         Scanner sc = new Scanner(System.in);
 
-        int choiceCardOne, choiceCardTwo, choiceCardThree, choiceCardFour, choiceCardFive, choiceCardSix, choiceCardSeven;
-        int numberOfChoiceOne, numberOfChoiceTwo, numberOfChoiceThree, numberOfChoiceFour, numberOfChoiceFive, numberOfChoiceSix, numberOfChoiceSeven, chosenNumber;
+        int choiceCardOne, choiceCardTwo, choiceCardThree, choiceCardFour, choiceCardFive, choiceCardSix,
+                choiceCardSeven;
+        int numberOfChoiceOne, numberOfChoiceTwo, numberOfChoiceThree, numberOfChoiceFour, numberOfChoiceFive,
+                numberOfChoiceSix, numberOfChoiceSeven, chosenNumber;
 
-        
-        System.out.println("Choose a number from 1 to 99; select the card your number appers with 1 for yes and 0 for false");
+        System.out.println(
+                "Choose a number from 1 to 99; select the card your number appers with 1 for yes and 0 for false");
 
         System.out.println("╔════════════╗");
         System.out.println("║   Card 1   ║");
@@ -28,7 +29,7 @@ public class NumberGuesser {
 
         System.out.println("Is your number in the first card? (1=Yes 0=No)");
         choiceCardOne = sc.nextInt();
-        
+
         System.out.println("╔════════════╗");
         System.out.println("║   Card 2   ║");
         System.out.println("╚════════════╝");
@@ -78,7 +79,7 @@ public class NumberGuesser {
         System.out.println("25 43 61 79   \n");
 
         System.out.println("Is your number in the fourth card? (1=Yes 0=No)");
-        choiceCardFour = sc.nextInt(); 
+        choiceCardFour = sc.nextInt();
 
         System.out.println("╔════════════╗");
         System.out.println("║   Card 5   ║");
@@ -135,7 +136,7 @@ public class NumberGuesser {
             numberOfChoiceOne = (int) Math.pow(2, 0);
         } else {
             numberOfChoiceOne = 0;
-        } 
+        }
 
         if (choiceCardTwo == 1) {
             numberOfChoiceTwo = (int) Math.pow(2, 1);
@@ -147,7 +148,7 @@ public class NumberGuesser {
             numberOfChoiceThree = (int) Math.pow(2, 2);
         } else {
             numberOfChoiceThree = 0;
-        } 
+        }
 
         if (choiceCardFour == 1) {
             numberOfChoiceFour = (int) Math.pow(2, 3);
@@ -166,19 +167,19 @@ public class NumberGuesser {
         } else {
             numberOfChoiceSix = 0;
         }
-        
+
         if (choiceCardSeven == 1) {
             numberOfChoiceSeven = (int) Math.pow(2, 6);
         } else {
             numberOfChoiceSeven = 0;
         }
 
-        chosenNumber =  numberOfChoiceOne + numberOfChoiceTwo + numberOfChoiceThree + numberOfChoiceFour + numberOfChoiceFive + numberOfChoiceSix + numberOfChoiceSeven;
+        chosenNumber = numberOfChoiceOne + numberOfChoiceTwo + numberOfChoiceThree + numberOfChoiceFour
+                + numberOfChoiceFive + numberOfChoiceSix + numberOfChoiceSeven;
 
         sc.close();
 
         System.out.println("Your number is " + chosenNumber);
     }
 
-    
 }

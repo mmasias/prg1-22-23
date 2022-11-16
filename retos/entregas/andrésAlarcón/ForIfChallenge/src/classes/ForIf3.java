@@ -10,7 +10,7 @@ public class ForIf3 {
 
                 if (
                 // El código desde aqui
-                    j==20
+                j == 20
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");

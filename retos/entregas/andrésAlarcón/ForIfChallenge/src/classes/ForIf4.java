@@ -10,7 +10,7 @@ public class ForIf4 {
 
                 if (
                 // El código desde aqui
-                    i>7 && i<15
+                i > 7 && i < 15
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");

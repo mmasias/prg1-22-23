@@ -10,7 +10,7 @@ public class ForIf19 {
 
                 if (
                 // El código desde aqui
-                    ((i % 2 != 0 && j % 2 != 0) || (i % 2 == 0 && j % 2 == 0))
+                ((i % 2 != 0 && j % 2 != 0) || (i % 2 == 0 && j % 2 == 0))
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");

@@ -12,7 +12,7 @@ public class AreaSquare {
 
         area = side * side;
 
-        System.out.println("Area of Square is: " + area); 
+        System.out.println("Area of Square is: " + area);
 
         sc.close();
 

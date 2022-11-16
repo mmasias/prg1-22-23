@@ -11,9 +11,9 @@ public class AreaCircle {
         ratio = sc.nextDouble();
         area = Math.PI * Math.pow(ratio, 2);
 
-        System.out.println("Area of Circle is: " + area); 
+        System.out.println("Area of Circle is: " + area);
 
         sc.close();
-    
+
     }
 }

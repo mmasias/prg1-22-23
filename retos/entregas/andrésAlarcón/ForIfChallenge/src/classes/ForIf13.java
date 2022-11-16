@@ -10,7 +10,7 @@ public class ForIf13 {
 
                 if (
                 // El código desde aqui
-                    ( i == j + 1 ) || ( i + 1 == j )
+                (i == j + 1) || (i + 1 == j)
                 // El código hasta aquí
                 ) {
                     System.out.print("(*)");

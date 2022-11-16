@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FinalGradeCalculator {
     public static void main(String[] args) {
-        
+
         Scanner lector = new Scanner(System.in);
 
         double finalExam, midtermExam, continuousAssessment, teacherEvaluation, finalGrade;
@@ -21,9 +21,10 @@ public class FinalGradeCalculator {
         continuousAssessment = lector.nextDouble();
         System.out.println("Enter the teacher evaluation grade");
         teacherEvaluation = lector.nextDouble();
-        finalGrade = (finalExam * percentFinalExman) + (midtermExam * percentMidtermExam) + (continuousAssessment * percentContinuousAssessment) + (teacherEvaluation * percentTeacherEvaluation);
+        finalGrade = (finalExam * percentFinalExam) + (midtermExam * percentMidtermExam)
+                + (continuousAssessment * percentContinuousAssessment) + (teacherEvaluation * percentTeacherEvaluation);
 
-        System.out.println("The final grade is: "+ finalGrade);
+        System.out.println("The final grade is: " + finalGrade);
 
         lector.close();
     }
