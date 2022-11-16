@@ -15,7 +15,7 @@ public class GeometricAreaCalculator {
                 double baseSquare = sc.nextDouble();
                 double square = baseSquare * baseSquare;
                 System.out.println("The area is " + square);
-                return;
+                break;
 
             case 2:
                 System.out.println("Enter the base");
@@ -24,7 +24,7 @@ public class GeometricAreaCalculator {
                 double heigthRectangle = sc.nextDouble();
                 double rectangle = baseRectangle * heigthRectangle;
                 System.out.println("The area is " + rectangle);
-                return;
+                break;
 
             case 3:
                 System.out.println("Enter the base");
@@ -33,14 +33,14 @@ public class GeometricAreaCalculator {
                 double heigthTriangle = sc.nextDouble();
                 double triangle = (baseTriangle * heigthTriangle) / 2;
                 System.out.println("The area is " + triangle);
-                return;
+                break;
 
             case 4:
                 System.out.println("Enter the radius");
                 double radius = sc.nextDouble();
                 double Circle = Math.PI * Math.pow(radius, 2);
                 System.out.println("The area is " + Circle);
-                return;
+                break;
 
         }
         ;
