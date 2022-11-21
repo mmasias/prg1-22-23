@@ -93,7 +93,7 @@ public class retoCCCF_Base {
             if (nuevoCliente != 0) {
                 System.out.print(" - Llega 1 cliente a la caja " + nuevoCliente + " - Esperando: " + cola + "\n");
             } else {
-                System.out.print(" - No llega ningún cliente - Esperando: " + cola + "\n");
+                System.out.print(" - No llega ningun cliente - Esperando: " + cola + "\n");
             }
 
                 System.out.println(String.format("Caja 1: [%d] ", caja1)
@@ -101,7 +101,7 @@ public class retoCCCF_Base {
                                  + String.format("Caja 3: [%d] ", caja3)
                                  + String.format("Caja 4: [%d] ", caja4));
 
-            // Reiniciar última caja a la que llego un cliente
+            // Reiniciar ultima caja a la que llego un cliente
             nuevoCliente = 0;
         }
 
