@@ -2,9 +2,9 @@
 
 El centro comercial CF de El Alisal trabaja de 9 de la mañana a 9 de la noche vendiendo diversos artículos. 
 
-Para la gestión de la venta dispone de 4 cajas que van atendiendo a los clientes, que a su vez van situándose en fila conforme concluyen sus compras esperando una caja vacía que les atienda.
+Un estudio previo determinó que la probabilidad de llegada de un cliente nuevo a la cola se estima en un 60% por minuto.
 
-Un estudio previo determinó que la probabilidad de llegada de un cliente nuevo a la cola se estima en un 40% por minuto.
+Para la gestión de la venta dispone de 4 cajas que van atendiendo a los clientes, que a su vez van situándose en fila conforme concluyen sus compras esperando una caja vacía que les atienda.
 
 Cuando una caja está libre (es decir, no está atendiendo a ningún cliente), puede recibir a un nuevo cliente de la cola. Este cliente llevará su compra, la cual el estudio anteriormente citado midió en **packs de items**. El usuario puede llevar un mínimo de 5 y un máximo de 15 pack de items para su atención y se tiene calculado que las cajas tardan 1 minuto en atender un pack de items.
 
@@ -40,3 +40,55 @@ Extienda el programa anterior para que soporte los siguientes supuestos:
 * 
 
 > Nota: Debido a su complejidad, se sugiere que los retos ampliados se resuelvan uno a la vez y que, dominados los conceptos, se integren en una única solución.
+
+# Sugerencia de presentación
+
+```
+manuel@manuel-OptiPlex-7020:~/Documentos/miJava$ java testParcial
+MINUTO 1 - Llega 1 persona - En Cola: 0
+Caja1:[13] | Caja2:[0] | Caja3:[0] | Caja4:[0]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 2 - No llega nadie  - En Cola: 0
+Caja1:[12] | Caja2:[0] | Caja3:[0] | Caja4:[0]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 3 - Llega 1 persona - En Cola: 0
+Caja1:[11] | Caja2:[6] | Caja3:[0] | Caja4:[0]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 4 - Llega 1 persona - En Cola: 0
+Caja1:[10] | Caja2:[5] | Caja3:[4] | Caja4:[0]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 5 - No llega nadie  - En Cola: 0
+Caja1:[9] | Caja2:[4] | Caja3:[3] | Caja4:[0]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 6 - Llega 1 persona - En Cola: 0
+Caja1:[8] | Caja2:[3] | Caja3:[2] | Caja4:[4]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 7 - Llega 1 persona - En Cola: 1
+Caja1:[7] | Caja2:[2] | Caja3:[1] | Caja4:[3]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 8 - No llega nadie  - En Cola: 1
+Caja1:[6] | Caja2:[1] | Caja3:[0] | Caja4:[2]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 9 - Llega 1 persona - En Cola: 1
+Caja1:[5] | Caja2:[0] | Caja3:[7] | Caja4:[1]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 10 - No llega nadie  - En Cola: 0
+Caja1:[4] | Caja2:[6] | Caja3:[6] | Caja4:[0]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 11 - Llega 1 persona - En Cola: 0
+Caja1:[3] | Caja2:[5] | Caja3:[5] | Caja4:[4]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 12 - Llega 1 persona - En Cola: 1
+Caja1:[2] | Caja2:[4] | Caja3:[4] | Caja4:[3]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MINUTO 720 - No llega nadie  - En Cola: 7
+Caja1:[1] | Caja2:[4] | Caja3:[4] | Caja4:[2]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+RESUMEN
+============================================================
+Minutos con cola en cero  	: 216
+Personas en la cola al cierre : 7
+Personas atendidas en el dia  : 295
+Articulos vendidos en el dia  : 2684
+============================================================
+```
