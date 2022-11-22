@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class SimulacionParcial {
     public static void main(String[] args) {
