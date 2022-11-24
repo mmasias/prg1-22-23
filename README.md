@@ -7,7 +7,7 @@ Repo de materiales y proyectos de la asignatura **Programación I** del [Grado d
 * [Temario](./temario)
 * [Proyectos que abordaremos](docs/proyectos.md)
 * [Retos!](retos/readme.md)
-
+* [Examen parcial!](https://github.com/mmasias/PRG1-22-23-ExamenParcial)
 
 ## Herramientas
 
