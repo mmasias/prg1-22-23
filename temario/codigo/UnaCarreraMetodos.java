@@ -22,7 +22,6 @@ public class UnaCarreraMetodos {
 		} while (!hayGanador && quedanTurnos);
         
 		dimeQuienGano(posicionJugador,posicionOrdenador);
-		
     }
 	
 	static void dimeQuienGano(int posicion1, int posicion2){
@@ -42,13 +41,16 @@ public class UnaCarreraMetodos {
 
 	static void imprimir(int posicion1, int posicion2){
 		
-		System.out.println("-----------------");
 		imprimeCamello(posicion1);
 		imprimeCamello(posicion2);
-		System.out.println("-----------------");
-		
+		imprimeLinea();
+				
 	}
 	
+	private static void imprimeLinea() {
+		System.out.println("----------------------------");
+	}
+
 	static int avance(int unaPosicion){
 		
 		int unAvance;
@@ -63,7 +65,6 @@ public class UnaCarreraMetodos {
 		return entrada.nextLine(); 
 	}
 
-
 	static void imprimeCamello(int unaPosicion){
 		
 		for(int i=0;i<=unaPosicion;i++){
@@ -73,5 +74,4 @@ public class UnaCarreraMetodos {
 		
 	}
 
-	
  }
