@@ -63,7 +63,7 @@
 ### Métodos estáticos
 
 - Necesidad de uso de métodos estáticos y el concepto de responsabilidad.
-- Ámbito de variables: variables locales & variables globales.
 - Paso de parámetros.
 - Devolución (o no) de valores.
+- Ámbito de variables: variables locales & variables globales.
 - [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodos.java)
