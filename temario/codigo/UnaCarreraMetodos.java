@@ -48,6 +48,7 @@ public class UnaCarreraMetodos {
 	}
 	
 	static void imprimeLinea() {
+
 		System.out.println("----------------------------");
 	}
 
