@@ -8,7 +8,7 @@
   - 🏗️ Estructuras de control
     - ☑️ Alternativas
     - ☑️ Repetitivas
-  - 🔲 Métodos estáticos
+  - ☑️ Métodos estáticos
   - 🔲 Matrices
 
 Con todo esto, **[a día de hoy deberíamos saber...](aDiaDeHoy.md)**
