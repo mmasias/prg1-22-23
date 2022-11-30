@@ -45,7 +45,7 @@ public class Whack {
             System.out.println(BordeHorizontal);
             System.out.println("Turno:["+ turno +"] / Aciertos:["+ NumeroAciertos+"]");
             if (turno != 1){
-                if ((PosicionGolpe == PosicionMole)){
+                if ((PosicionGolpe == PosicionMole)||(PosicionGolpe == PosicionMole2){
                     System.out.println("[ACIERTO]");
                     NumeroAciertos = NumeroAciertos + 1;
                 } else {
