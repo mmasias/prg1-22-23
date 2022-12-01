@@ -1,13 +1,14 @@
 # Temario
 
 - ☑️ Conceptos básicos de algorítmica
-- 🔲 Programación en Java
+- 🔲 Programación estructurada en Java
   - ☑️ Salida por consola
   - ☑️ Variables
   - ☑️ Entrada por consola
   - 🏗️ Estructuras de control
     - ☑️ Alternativas
-    - 🔲 Repetitivas
+    - ☑️ Repetitivas
+  - ☑️ Métodos estáticos
   - 🔲 Matrices
 
 Con todo esto, **[a día de hoy deberíamos saber...](aDiaDeHoy.md)**
