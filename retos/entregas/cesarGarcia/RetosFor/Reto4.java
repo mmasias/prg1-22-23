@@ -1,4 +1,4 @@
-public class ForIf4 {
+public class Reto4 {
     public static void main(String[] args) {
         int dimension;
         dimension = 21;
