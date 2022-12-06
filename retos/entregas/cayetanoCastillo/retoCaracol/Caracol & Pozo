@@ -1,0 +1,87 @@
+public class caracol {
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        
+        int agua;
+        int salida;
+        int caracol;
+        double Mañana;
+        double Noche;
+        caracol = 10;
+        salida = 20;
+        agua = 7;
+
+
+
+        
+
+            // imprimir borde
+            final String dia0           = "[Día 0]             ";
+            final String borde_Superior = "[][]            [][]";
+            final String pared          = "  [].:.:.:.:.:.:[]  ";
+            final String Caracol        = "  []   _@)_/’   []  ";
+            final String Agua           = "  []~~~~~~~~~~~~[]  ";
+            final String borde_Inferior = "  [][][][][][][][]  ";   
+            final String separacion     = "                    ";
+
+            String imprimir;
+            System.out.println(dia0);
+            System.out.println(separacion);
+            System.out.println(borde_Superior);
+
+            
+        for(int profundidad = 1; profundidad <= salida; profundidad ++) {
+            if(profundidad == caracol) {
+                imprimir = Caracol;
+            } else {
+                if (profundidad >= salida - agua) {
+                    imprimir = Agua;
+                } else {
+                    imprimir = pared;
+                }
+            }
+            System.out.println(imprimir + " __ " + profundidad);
+        }
+        System.out.println(borde_Inferior);
+
+        for (int dia = 1; dia != 21; dia = dia+1) {
+				
+			System.out.print ("[Día " + dia + "]" );
+            double Ascenso = Math.floor(Math.random() * (4-1+1)) + 1;
+            double Descenso = Math.floor(Math.random() * (2-0+1)) + 0;
+            Mañana = caracol - Ascenso;
+            Noche = Mañana + Descenso;
+            double profundidadFinal = Noche;
+            System.out.println("El caracol Ascendio " + Ascenso + "m durante la mañana y descendio " + Descenso + "m durante la noche ");
+            if(profundidadFinal <=0){
+                System.out.println("El caracol logro salir del pozo");
+                break;
+            }
+            
+            if(dia !=0 && profundidadFinal>0);
+            System.out.println(borde_Superior);
+            for (int profundidad = 1; profundidad <= salida; profundidad = profundidad + 1) {
+                if (profundidad == profundidadFinal) {
+                imprimir = Caracol;
+                caracol = (int) Noche;
+                } else {
+                if (profundidad >= salida - agua) {
+                    imprimir = Agua;
+                } else {
+                    imprimir = pared;
+                }
+            }
+            
+            System.out.println(imprimir + " __ " + profundidad);
+        }
+        System.out.println(borde_Inferior);
+        if(dia==20 ){
+        
+        System.out.println("El caracol murio al dia 20");
+            }
+        }
+    }
+}
+  
