@@ -10,7 +10,7 @@ public class AdivinaNumero {
 
         numeroDeLaMaquina = piensaUnNumero(LIMITE_INFERIOR, LIMITE_SUPERIOR);
         do{
-            numeroDelUsuario  = preguntaEntero("Adivina!!! ["+numeroDeLaMaquina+"]");  
+            numeroDelUsuario  = preguntaEntero("Adivina!!! [Pista, el numero pensado es "+numeroDeLaMaquina+"]");  
         } while (!loAdivino(numeroDelUsuario, numeroDeLaMaquina));
     }
 
