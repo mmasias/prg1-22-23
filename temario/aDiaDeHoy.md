@@ -66,4 +66,13 @@
 - Paso de parámetros.
 - Devolución (o no) de valores.
 - Ámbito de variables: variables locales & variables globales.
+- Reparto de responsabilidades I
 - [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodos.java)
+
+### Matrices
+
+- Necesidad del uso de matrices
+- Inicialización de matrices
+- Uso de matrices
+- Reparto de responsabilidades II
+- [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodosArray.java)
