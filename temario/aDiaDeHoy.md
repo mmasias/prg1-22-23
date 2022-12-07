@@ -76,3 +76,4 @@
 - Uso de matrices
 - Reparto de responsabilidades II
 - [Ejemplo usando como base el examen parcial, incluyendo arrays para extender el número de jugadores](codigo/UnaCarreraMetodosArray.java)
+- [Adivina el número](/retos/soluciones/AdivinaNumero.java), versión con métodos estáticos (incluyendo la pista de frío, tibio y caliente).
