@@ -75,4 +75,4 @@
 - Inicialización de matrices
 - Uso de matrices
 - Reparto de responsabilidades II
-- [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodosArray.java)
+- [Ejemplo usando como base el examen parcial, incluyendo arrays para extender el número de jugadores](codigo/UnaCarreraMetodosArray.java)
