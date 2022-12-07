@@ -58,4 +58,12 @@
 
 - for(){} para la gestión de bloques de código dónde se conoce a priori el número de repeticiones
 - while() y do...while(); para la gestión de bloques de código mediante estados
-- Concepto iniciatico de estado de un sistema y su uso para gestionar bucles. [Ejemplo con el reto de adivina un número](EstructurasControl.java).
+- Concepto iniciatico de estado de un sistema y su uso para gestionar bucles. [Ejemplo con el reto de adivina un número](codigo/EstructurasControl.java).
+
+### Métodos estáticos
+
+- Necesidad de uso de métodos estáticos y el concepto de responsabilidad.
+- Paso de parámetros.
+- Devolución (o no) de valores.
+- Ámbito de variables: variables locales & variables globales.
+- [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodos.java)
