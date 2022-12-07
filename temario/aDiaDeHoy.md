@@ -67,7 +67,7 @@
 - Devolución (o no) de valores.
 - Ámbito de variables: variables locales & variables globales.
 - Reparto de responsabilidades I
-- [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodos.java)
+- [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodos.java), dividiendo el código mediante métodos estáticos, trasladando la responsabilidad a métodos, una responsabilidad por método.
 
 ### Matrices
 
