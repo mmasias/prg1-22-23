@@ -70,8 +70,7 @@ public class UnaCarreraMetodos {
 		for(int i=0;i<=unaPosicion;i++){
 			System.out.print(".");
 		}
-		System.out.println(";--;'");
-		
+		System.out.println(";--;'");		
 	}
 
  }
