@@ -3,8 +3,8 @@ public class WhacAMole {
     public static void main (String [] args){
         Scanner s = new Scanner (System.in);
         int turno = 1;
-        int filas = 4;
-        int columnas = 4;
+        int FILAS = 4;
+        int COLUMNAS = 4;
         int puntos = 0;
         int huecoJugador;
         int huecoMaquina;
@@ -30,8 +30,8 @@ public class WhacAMole {
             System.out.println("Han salido el hueco " + huecoMaquina +" y el hueco " + huecoMaquina2);
 
 
-            for (int i = 1; i <= filas; i++) {
-                for (int j = 1; j <= columnas; j++) {
+            for (int i = 1; i <= FILAS; i++) {
+                for (int j = 1; j <= COLUMNAS; j++) {
     
                     if(huecoJugador == huecoMaquina || huecoJugador == huecoMaquina2){
 
@@ -117,7 +117,6 @@ public class WhacAMole {
         }
         System.out.println();
         System.out.println("Puntuacion final = " + puntos);
-
         s.close();
     }
 }
