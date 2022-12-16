@@ -1,0 +1,90 @@
+package whacamole;
+
+import java.util.Scanner;
+
+public class whacAMole {
+    public static void main(String[] args) {
+    //variables
+
+    int turnos= 0; 
+    int aciertos= 0;
+    int topo= 0;
+    int martillo= 0;
+    int [][] Posicion = new int [4][4];//declarado y creado matriz
+        Posicion [0][0] = 1;
+        Posicion [0][1] = 2;
+        Posicion [0][2] = 3;
+        Posicion [0][3] = 4;
+        Posicion [1][0] = 5;
+        Posicion [1][1] = 6;
+        Posicion [1][2] = 7;
+        Posicion [1][3] = 8;
+        Posicion [2][0] = 9;
+        Posicion [2][1] = 10;
+        Posicion [2][2] = 11;
+        Posicion [2][3] = 12;
+        Posicion [3][0] = 13;
+        Posicion [3][1] = 14;
+        Posicion [3][2] = 15;
+        Posicion [3][3] = 16;
+
+    final String linea1                = "+----------------------------+";
+    final String barraVerticalApertura = "|   ";
+    final String huecoTopo             = "('')  ";
+    final String huecoMartillo         = "[[]]  ";
+    final String huecoVacio            = "(  )  ";
+    final String barraVerticalCierre   = " |";
+    final String escribirFallo         = "[FALLO]";
+    final String escribirAcierto       = "[ACIERTO]";
+    final String separador             = "==============================";
+
+    do {
+        turnos++;
+
+        topo = (int) ((Math.floor(Math.random() * (16-1)) + 1)); //(max-min)+min
+        
+        System.out.print("Seleccione del 1 al 16 donde golpear: ");
+
+        Scanner teclado = new Scanner(System.in);
+        martillo = teclado.nextInt();
+
+        System.out.println("Golpe en[" + martillo + "] / Monigote en [" + topo + "]");
+        System.out.println(linea1);
+        
+        for(int i=0; i < 4; i++){
+        System.out.print(barraVerticalApertura);    
+            for(int j=0; j < 4; j++){
+                if(Posicion [i] [j] == martillo){
+                    System.out.print(huecoMartillo);  
+                }
+                if((Posicion [i] [j] == topo) && (topo != martillo)){
+                System.out.print(huecoTopo);
+                }
+                if(Posicion [i][j] != topo && Posicion [i][j] != martillo){
+                System.out.print(huecoVacio);
+                }
+                
+            
+
+        }
+        System.out.println(barraVerticalCierre);
+    }
+    if(topo==martillo){
+        aciertos++;    
+    }
+    System.out.println(linea1);
+    System.out.println("Turno: [" + turnos + "] / Aciertos: ["+ aciertos + "]");
+
+    if(topo!=martillo){
+    System.out.println(escribirFallo);
+    }else{
+        System.out.println(escribirAcierto);
+    }
+    System.out.println(separador);
+
+
+        } while (turnos < 15);
+        System.out.println("Aciertos totales: [" + aciertos + "]");
+        System.out.print("Fin de la simulación");
+    }
+}
