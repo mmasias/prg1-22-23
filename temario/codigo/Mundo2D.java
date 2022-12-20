@@ -1,8 +1,24 @@
+import java.util.Scanner;
+
 public class Mundo2D {
 
 	static final int FILA = 0;
 	static final int COLUMNA = 1;
 
+	static final int ARRIBA = 1;
+	static final int ABAJO = 2;
+	static final int IZQUIERDA = 3;
+	static final int DERECHA = 4;
+
+	static final int[][] MOVIMIENTOS = {	{0,0},
+											{-1,0}, 
+											{1,0}, 
+											{0,-1}, 
+											{0,1}
+	};
+
+	static final char[] TECLAS = {'x','w','s','a','d'};
+	
 	public static void main(String[] args) {
 
 		int[][] elMapa = {	{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
@@ -20,11 +36,34 @@ public class Mundo2D {
 							{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
 		};
 
-		int [] elPersonaje = {5,9};
-		
-		imprimeMundo(elMapa, elPersonaje);
+		int [] elPersonaje = {1,3};		
+
+		do {
+			imprimeMundo(elMapa, elPersonaje);
+			definePosicion(elPersonaje);
+		} while(true);
 	}
 	
+	private static void definePosicion(int[] elPersonaje) {
+		
+		switch (capturaMovimiento()){
+			case ARRIBA:	mueve(elPersonaje, ARRIBA); break;
+			case ABAJO:		mueve(elPersonaje, ABAJO); break;
+			case IZQUIERDA:	mueve(elPersonaje, IZQUIERDA); break;
+			case DERECHA:	mueve(elPersonaje, DERECHA); break;
+		}
+	}
+
+	private static int capturaMovimiento() {
+		switch (preguntaChar()){
+			case 's': 	return ABAJO;
+			case 'w': 	return ARRIBA;
+			case 'a': 	return IZQUIERDA;
+			case 'd': 	return DERECHA;
+		}
+		return 0;
+	}
+
 	static void imprimeMundo(int[][] unMapa, int[] unPersonaje){
 		
 			for (int fila=0; fila<unMapa.length; fila++){
@@ -49,4 +88,23 @@ public class Mundo2D {
 		System.out.print("_O_");
 	}
 
+	static void mueve(int[] elPersonaje, int movimiento) {
+		elPersonaje[FILA] = elPersonaje[FILA] + MOVIMIENTOS[movimiento][FILA];
+		elPersonaje[COLUMNA] = elPersonaje[COLUMNA] + MOVIMIENTOS[movimiento][COLUMNA];
+	}
+
+    static int preguntaInt(){
+        Scanner entrada = new Scanner(System.in);
+        return entrada.nextInt(); 
+    }
+
+    static String preguntaString(){
+        Scanner entrada = new Scanner(System.in);
+        return entrada.nextLine(); 
+    }
+
+	static char preguntaChar(){
+        Scanner entrada = new Scanner(System.in);
+        return entrada.next().charAt(0); 
+    }
 }
