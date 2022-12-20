@@ -26,7 +26,7 @@ public class Mundo2D {
 			for (int fila=0; fila<unMapa.length; fila++){
 				for (int columna=0; columna<unMapa[fila].length; columna++) {
 					if (columna==unPersonaje[0] && fila==unPersonaje[1]) {
-						System.out.print("_O_");
+						imprimePersonaje();
 					} else {
 						imprimeTerreno(unMapa[fila][columna]);
 					}
@@ -39,6 +39,10 @@ public class Mundo2D {
 		
 		String[] terreno = {" . ","[#]","~~~","vVv","*oO",};
 		System.out.print(terreno[unTile]);
+	}
+
+	static void imprimePersonaje(){
+		System.out.print("_O_");
 	}
 
 }
