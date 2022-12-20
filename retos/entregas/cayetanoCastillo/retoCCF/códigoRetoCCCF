@@ -1,0 +1,121 @@
+import java.util.Scanner;
+
+public class simulacionParcial {
+    public static void main(String[] args) {
+
+		int tiempoTotal = 1 * 60;
+		double probabilidadLlegada;
+		int unaCola;
+		int laCaja1;
+		int laCaja2;
+		int laCaja3;
+		int laCaja4;
+
+		int personasCola;
+		int personasAtendidas;
+		int itemsRestantes;
+		int itemsVendidos;
+		int minutosDesperdiciados;
+
+		personasAtendidas = 0;
+		itemsRestantes = 0;
+		itemsVendidos = 0;
+		minutosDesperdiciados = 0;
+		 
+		unaCola = 0;
+			personasCola = unaCola;
+		laCaja1 = 0;
+		laCaja2 = 0;
+		laCaja3 = 0;
+		laCaja4 = 0;
+		
+		
+
+		for (int minuto=1; minuto <= tiempoTotal; minuto = minuto + 1) {
+				
+			System.out.print ("Minuto " + minuto);
+			
+			probabilidadLlegada = Math.random();
+			if (probabilidadLlegada<=0.4) {
+				System.out.println(" - Llego una persona");
+				unaCola = unaCola + 1;
+				personasAtendidas = personasAtendidas + 1;
+			} else {
+				System.out.println("");
+			}				
+			System.out.println("> Persona en cola: " + unaCola); 
+			//Caja1
+			if (laCaja1<=0 && unaCola>0) {
+				unaCola = unaCola - 1;
+				laCaja1 = (int)(Math.random()*11)+5;
+				itemsVendidos = itemsVendidos + laCaja1;
+				itemsRestantes = laCaja1;
+				System.out.println("  >  Pasa una persona a la caja 1 llevando [" + laCaja1 + "] items");
+			}
+			
+			if (laCaja1>0){
+				laCaja1 = laCaja1 - 1;
+			
+				System.out.println("  >  La caja 1 atiende un item, le quedan " + laCaja1);
+			}
+			//Caja2
+			if (laCaja2<=0 && unaCola>0) {
+				unaCola = unaCola - 1;
+				laCaja2 = (int)(Math.random()*11)+5;
+				itemsVendidos = itemsVendidos + laCaja2;
+				itemsRestantes = laCaja2;
+				System.out.println("  >  Pasa una persona a la caja 2 llevando [" + laCaja2 + "] items");
+			}
+			
+			if (laCaja2>0){
+				laCaja2 = laCaja2 - 1;
+			
+				System.out.println("  >  La caja 2 atiende un item, le quedan " + laCaja2);
+			}
+			//Caja3
+			if (laCaja3<=0 && unaCola>0) {
+				unaCola = unaCola - 1;
+				laCaja3 = (int)(Math.random()*11)+5;
+				itemsVendidos = itemsVendidos + laCaja3;
+				itemsRestantes = laCaja3;
+				System.out.println("  >  Pasa una persona a la caja 3 llevando [" + laCaja3 + "] items");
+			}
+			
+			if (laCaja3>0){
+				laCaja3 = laCaja3 - 1;
+			
+				System.out.println("  >  La caja 3 atiende un item, le quedan " + laCaja3);
+			}
+			//Caja 4
+			if (laCaja4<=0 && unaCola>0) {
+				unaCola = unaCola - 1;
+				laCaja4 = (int)(Math.random()*11)+5;
+				itemsVendidos = itemsVendidos + laCaja4;
+				itemsRestantes = laCaja4;
+				System.out.println("  >  Pasa una persona a la caja 4 llevando [" + laCaja4 + "] items");
+			}
+			
+			if (laCaja4>0){
+				laCaja4 = laCaja4 - 1;
+		
+				System.out.println("  >  La caja 4 atiende un item, le quedan " + laCaja4);
+			}
+		}
+			//Recuento
+			int itemsTotales;
+			itemsTotales = itemsVendidos - itemsRestantes;
+			int personasAtendidasTotales = personasAtendidas - unaCola;
+		System.out.println("   ");
+		System.out.println("-----------------");
+		System.out.println("Resumen");
+		System.out.println("Personas en cola al final de la jornada:" + unaCola);
+		System.out.println("Personas atendidas al final de la jornada:" + personasAtendidasTotales);
+		System.out.println("Items vendidos al final de la jornada:" + itemsTotales);
+		System.out.println("-----------------");
+		System.out.println("   ");
+			//Fin simulación
+		System.out.println("Fin de la simulacion");	
+
+		
+	}
+}
