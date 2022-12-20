@@ -1,4 +1,8 @@
 public class Mundo2D {
+
+	static final int FILA = 0;
+	static final int COLUMNA = 1;
+
 	public static void main(String[] args) {
 
 		int[][] elMapa = {	{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
@@ -16,7 +20,7 @@ public class Mundo2D {
 							{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
 		};
 
-		int [] elPersonaje = {5,5};
+		int [] elPersonaje = {5,9};
 		
 		imprimeMundo(elMapa, elPersonaje);
 	}
@@ -25,7 +29,7 @@ public class Mundo2D {
 		
 			for (int fila=0; fila<unMapa.length; fila++){
 				for (int columna=0; columna<unMapa[fila].length; columna++) {
-					if (columna==unPersonaje[0] && fila==unPersonaje[1]) {
+					if (fila==unPersonaje[FILA] && columna==unPersonaje[COLUMNA]) {
 						imprimePersonaje();
 					} else {
 						imprimeTerreno(unMapa[fila][columna]);
