@@ -47,15 +47,16 @@ public class Mundo2D_vClase {
 
 		System.out.println("Adonde vas?");
 		return preguntaInt();
-		
 	}
 
 	static int preguntaInt(){
+
 		Scanner entrada = new Scanner(System.in);
 		return entrada.nextInt(); 
 	}
 
 	static String pregunta(){
+
 		Scanner entrada = new Scanner(System.in);
 		return entrada.nextLine(); 
 	}
@@ -64,7 +65,6 @@ public class Mundo2D_vClase {
 		
 		unPersonaje[FILA] +=  MOVIMIENTO[direccion][FILA];
 		unPersonaje[COLUMNA] += MOVIMIENTO[direccion][COLUMNA];
-	
 	}
 	
 	static void imprimeMundo(int[][] unMapa, int[] unPersonaje){
@@ -83,7 +83,13 @@ public class Mundo2D_vClase {
 	
 	static void imprimeTerreno(int unTile){
 		
-		String[] terreno = {" . ","[#]","~~~","vVv","*oO",};
+		String[] terreno = {
+			" . ",
+			"[#]",
+			"~~~",
+			"vVv",
+			"*oO"
+		};
 		System.out.print(terreno[unTile]);
 	}
 
