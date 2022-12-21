@@ -56,10 +56,10 @@ public class Mundo2D {
 
 	private static int capturaMovimiento() {
 		switch (preguntaChar()){
-			case 's': 	return ABAJO;
-			case 'w': 	return ARRIBA;
-			case 'a': 	return IZQUIERDA;
-			case 'd': 	return DERECHA;
+			case 's', 'S', '8' : 	return ABAJO;
+			case 'w', 'W', '2' : 	return ARRIBA;
+			case 'a', 'A', '4' : 	return IZQUIERDA;
+			case 'd', 'D', '6' : 	return DERECHA;
 		}
 		return 0;
 	}
