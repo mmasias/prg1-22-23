@@ -17,10 +17,29 @@ Podemos asumir que moverse es cambiar dichas coordenadas. Entonces:
 
 Por tanto, moverse sería sumar una unidad a la dimensión adecuada del vector del personaje.
 
+<div align="center">
+
 |Dirección|Cambio
 |-|-
 |Arriba|```{-1,0}```
 |Abajo|```{1,0}```
 |Izquierda|```{0,1}```
 |Derecha|```{0,-1}```
+
+</div>
+
+Con esta abstracción, moverse significaría elegir una dirección y sumar ese vector al vector de posición del personaje.
+
+<div align="center">
+
+**Moverse = Posición + Dirección**
+
+|Posición|Dirección|Vector Dirección|Moverse
+|-|-|-|-
+|{5,3}|Arriba|{-1,0}|{4,3}
+|{5,3}|Abajo|{1,0}|{6,3}
+|{5,3}|Izquierda|{0,1}|{5,4}
+|{5,3}|Derecha|{0,-1}|{5,2}
+
+</div>
 
