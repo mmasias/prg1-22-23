@@ -34,8 +34,8 @@ Es decir que moverse significaría elegir una dirección y sumar ese vector al v
 
 **Moverse = Posición + Dirección**
 
-|Posición|Dirección|Moverse|Posición final
-|-|-|-|-
+|Posición inicial|Dirección|Moverse|Posición final
+|:-:|-|-|:-:
 |```{5,3}```|Arriba|```{5,3} + {-1,0}```|```{4,3}```
 |```{5,3}```|Abajo|```{5,3} + {1,0}```|```{6,3}```
 |```{5,3}```|Izquierda|```{5,3} + {0,1}```|```{5,4}```
