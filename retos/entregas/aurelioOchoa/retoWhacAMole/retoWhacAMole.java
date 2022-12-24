@@ -7,7 +7,7 @@ public class retoWhacAMole {
   // Declara input como scanner de usuario
   static Scanner input = new Scanner(System.in);
 
-  // Acorta System.out.print y System.out.println porque me da pereza
+  // Acorta System.out.print y System.out.println
   static void println(Object arg){ System.out.println(arg); }
   static void print(Object arg){ System.out.print(arg); }
 
