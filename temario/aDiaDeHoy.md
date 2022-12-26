@@ -66,4 +66,19 @@
 - Paso de parámetros.
 - Devolución (o no) de valores.
 - Ámbito de variables: variables locales & variables globales.
-- [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodos.java)
+- Reparto de responsabilidades I
+- [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodos.java), dividiendo el código mediante métodos estáticos, trasladando la responsabilidad a métodos, una responsabilidad por método.
+
+### Matrices
+
+- Necesidad del uso de matrices
+- Inicialización de matrices
+- Uso de matrices
+    - [Ejemplo basado lejanamente en el reto de las cajas](./codigo/JuegosConMatrices.java)
+- Reparto de responsabilidades II
+    - [Ejemplo usando como base el examen parcial, incluyendo arrays para extender el número de jugadores](codigo/UnaCarreraMetodosArray.java)
+    - [Adivina el número](/retos/soluciones/AdivinaNumero.java), versión con métodos estáticos (incluyendo la pista de frío, tibio y caliente).
+- Matrices bidimensionales
+    - Recorrido de una matriz
+    - Concepto de parseo o traducción
+    - [Ejemplo que aborda ambos conceptos](./codigo/JuegosConMatrices2D.java)
