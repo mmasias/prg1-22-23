@@ -1,3 +1,4 @@
+package Colas;
 import java.util.Scanner;
 
 public class colasSergioMayenGrafico {
