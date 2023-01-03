@@ -1,7 +1,7 @@
 # Temario
 
 - ☑️ Conceptos básicos de algorítmica
-- 🔲 Programación estructurada en Java
+- ☑️ Programación estructurada en Java
   - ☑️ Salida por consola
   - ☑️ Variables
   - ☑️ Entrada por consola
@@ -9,7 +9,7 @@
     - ☑️ Alternativas
     - ☑️ Repetitivas
   - ☑️ Métodos estáticos
-  - 🏗️ Matrices
+  - ☑️ Matrices
 
 # Trans temario
 
