@@ -1,9 +1,18 @@
 class MarcoMetodos {
 
-    public static void main(String[] args){
-        
-        int[] marco={0};
-        int[] madre = {350};
+    static final double FACTOR_VELOCIDAD_LLUVIA_FUERTE = 0.25, PROBABILIDAD_LLUVIA_FUERTE = 0.1;
+    static final double FACTOR_VELOCIDAD_LLUVIA_DEBIL = 0.75, PROBABILIDAD_LLUVIA_DEBIL = 0.4;
+
+    static final double FACTOR_VELOCIDAD_MONO_CANSADO = 0.9, PROBABILIDAD_MONO_CANSADO = 0.25;
+    static final double FACTOR_TIEMPO_MONO_ESCAPE = 2, PROBABILIDAD_MONO_ESCAPE = 0.15;
+
+    static final double FACTOR_VELOCIDAD_NORMAL = 1;
+    static final double FACTOR_TIEMPO_NORMAL = 0;
+
+    public static void main(String[] args) {
+
+        int[] marco = { 0 };
+        int[] madre = { 350 };
         int dia = 0;
 
         do {
@@ -23,8 +32,8 @@ class MarcoMetodos {
 
     static void moverMarco(int[] marco) {
 
-        double velocidad = ((Math.random()*6)+10) * factorClimatico() * factorMonoCansado();
-        double tiempo = (Math.random()*2)+8 - factorMonoEscapado();
+        double velocidad = ((Math.random() * 6) + 10) * factorClimatico() * factorMonoCansado();
+        double tiempo = (Math.random() * 2) + 8 - factorMonoEscapado();
         double espacio = velocidad * tiempo;
 
         System.out.println("> Marco avanza " + (int) espacio);
@@ -33,41 +42,41 @@ class MarcoMetodos {
     }
 
     static double factorClimatico() {
-        
+
         double elClima = Math.random();
 
-        if (elClima<0.1) {
+        if (elClima < PROBABILIDAD_LLUVIA_FUERTE) {
             System.out.println("> Llueve mucho!");
-            return 0.25;
-        } else if (elClima<0.4) {
+            return FACTOR_VELOCIDAD_LLUVIA_FUERTE;
+        } else if (elClima < PROBABILIDAD_LLUVIA_DEBIL) {
             System.out.println("> Llueve un poco");
-            return 0.75;
+            return FACTOR_VELOCIDAD_LLUVIA_DEBIL;
         }
         System.out.println("> Hace bueno");
-        return 1;
+        return FACTOR_VELOCIDAD_NORMAL;
     }
 
-    static double factorMonoCansado(){
+    static double factorMonoCansado() {
 
-        if (Math.random()<0.25) {
+        if (Math.random() < PROBABILIDAD_MONO_CANSADO) {
             System.out.println("> El mono se canso");
-            return 0.9;
+            return FACTOR_VELOCIDAD_MONO_CANSADO;
         }
-        return 1;
+        return FACTOR_VELOCIDAD_NORMAL;
     }
 
-    static double factorMonoEscapado(){
-        
-        if (Math.random()<0.15) {
+    static double factorMonoEscapado() {
+
+        if (Math.random() < PROBABILIDAD_MONO_ESCAPE) {
             System.out.println("> El mono se escapo");
-            return 2;
+            return FACTOR_TIEMPO_MONO_ESCAPE;
         }
-        return 0;        
+        return FACTOR_TIEMPO_NORMAL;
     }
 
     static boolean estenJuntos(int[] marco, int[] madre) {
 
-        if(madre[0] - marco[0] < 0) {
+        if (madre[0] - marco[0] < 0) {
             System.out.println("¡Marco ha encontrado a su madre!");
             return true;
         }
