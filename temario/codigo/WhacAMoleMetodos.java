@@ -16,12 +16,12 @@ class WhacAMoleMetodos {
 
         final int NUMERO_TURNOS = 15;
         int posicionJugador;
-        int[] posicionMonigotes = { 0, 0 };
+        int[] posicionMonigotes = { 0, 0, 0, 0 };
         int aciertos = 0;
 
         for (int i = 1; i <= NUMERO_TURNOS; i++) {
             posicionJugador = pideEntero();
-            defineUbicacionMonigotes(posicionMonigotes);
+            definePosicionMonigotes(posicionMonigotes);
             if (hayMonigote(posicionJugador, posicionMonigotes)) {
                 aciertos++;
             }
@@ -62,7 +62,7 @@ class WhacAMoleMetodos {
         return false;
     }
 
-    private static void defineUbicacionMonigotes(int[] posicionMonigotes) {
+    private static void definePosicionMonigotes(int[] posicionMonigotes) {
 
         for (int i = 0; i < posicionMonigotes.length; i++) {
             posicionMonigotes[i] = (int) ((Math.random() * NUMERO_CELDAS) + 1);
