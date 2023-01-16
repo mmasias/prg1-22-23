@@ -48,20 +48,32 @@ public class Mundo2D {
 	private static void definePosicion(int[] elPersonaje) {
 
 		switch (capturaMovimiento()) {
-			case ARRIBA:	mueve(elPersonaje, ARRIBA);		break;	
-			case ABAJO:		mueve(elPersonaje, ABAJO); 		break;
-			case IZQUIERDA:	mueve(elPersonaje, IZQUIERDA);	break;
-			case DERECHA:	mueve(elPersonaje, DERECHA);	break;
+			case ARRIBA:
+				mueve(elPersonaje, ARRIBA);
+				break;
+			case ABAJO:
+				mueve(elPersonaje, ABAJO);
+				break;
+			case IZQUIERDA:
+				mueve(elPersonaje, IZQUIERDA);
+				break;
+			case DERECHA:
+				mueve(elPersonaje, DERECHA);
+				break;
 		}
 	}
 
 	private static int capturaMovimiento() {
 
 		switch (preguntaChar()) {
-			case 's', 'S', '8':	return ABAJO;
-			case 'w', 'W', '2':	return ARRIBA;
-			case 'a', 'A', '4':	return IZQUIERDA;
-			case 'd', 'D', '6':	return DERECHA;
+			case 's', 'S', '8':
+				return ABAJO;
+			case 'w', 'W', '2':
+				return ARRIBA;
+			case 'a', 'A', '4':
+				return IZQUIERDA;
+			case 'd', 'D', '6':
+				return DERECHA;
 		}
 		return 0;
 	}
@@ -82,7 +94,13 @@ public class Mundo2D {
 
 	static void imprimeTerreno(int unTile) {
 
-		String[] terreno = { " . ", "[#]", "~~~", "vVv", "*oO", };
+		String[] terreno = {
+				" . ",
+				"[#]",
+				"~~~",
+				"vVv",
+				"*oO"
+		};
 		System.out.print(terreno[unTile]);
 	}
 
