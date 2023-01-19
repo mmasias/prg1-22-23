@@ -16,55 +16,53 @@ class WhacAMoleMetodos {
 
         final int NUMERO_TURNOS = 15;
         int posicionJugador;
-        int[] posicionMonigotes = { 0, 0 };
+        int[] posicionMonigotes = { 0, 0, 0, 0 };
         int aciertos = 0;
 
         for (int i = 1; i <= NUMERO_TURNOS; i++) {
             posicionJugador = pideEntero();
-            defineUbicacionMonigotes(posicionMonigotes);
-            if (haAcertado(posicionJugador, posicionMonigotes)) {
+            definePosicionMonigotes(posicionMonigotes);
+            if (hayMonigote(posicionJugador, posicionMonigotes)) {
                 aciertos++;
             }
             imprimeTablero(posicionJugador, posicionMonigotes);
         }
         System.out.println("Al final de los turnos ha logrado " + aciertos + " aciertos");
-
     }
 
     private static void imprimeTablero(int posicionJugador, int[] posicionMonigotes) {
 
         String queImprimir;
 
-        for (int i = 1; i < NUMERO_CELDAS; i++) {
+        for (int i = 1; i <= NUMERO_CELDAS; i++) {
             queImprimir = CASILLA;
             if (i == posicionJugador) {
                 queImprimir = MAZO;
             }
-            if (i == posicionMonigotes[i]) {
+            if (hayMonigote(i, posicionMonigotes)) {
                 queImprimir = MONIGOTE;
             }
-            if (posicionJugador == posicionMonigotes[i] && i == posicionJugador) {
+            if (hayMonigote(posicionJugador, posicionMonigotes) && i == posicionJugador) {
                 queImprimir = ACERTO;
             }
             if (i % NUMERO_COLUMNAS == 0) {
                 queImprimir = queImprimir + SALTO_DE_LINEA;
             }
-
             System.out.print(queImprimir);
         }
     }
 
-    private static boolean haAcertado(int posicionJugador, int[] posicionMonigotes) {
+    private static boolean hayMonigote(int posicion, int[] posicionMonigotes) {
 
         for (int i = 0; i < posicionMonigotes.length; i++) {
-            if (posicionJugador == posicionMonigotes[i]) {
+            if (posicion == posicionMonigotes[i]) {
                 return true;
             }
         }
         return false;
     }
 
-    private static void defineUbicacionMonigotes(int[] posicionMonigotes) {
+    private static void definePosicionMonigotes(int[] posicionMonigotes) {
 
         for (int i = 0; i < posicionMonigotes.length; i++) {
             posicionMonigotes[i] = (int) ((Math.random() * NUMERO_CELDAS) + 1);
@@ -76,5 +74,4 @@ class WhacAMoleMetodos {
         Scanner entrada = new Scanner(System.in);
         return entrada.nextInt();
     }
-
 }
