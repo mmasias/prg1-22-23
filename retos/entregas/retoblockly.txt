@@ -1,0 +1,1304 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="variables_set" id=")[t~[T?:;~8Q*tmsUa@2" x="179" y="-73">
+    <field name="VAR">vidaGuerreo</field>
+    <value name="VALUE">
+      <block type="math_number" id="}jf[(U(xN:=85JBrtiE9">
+        <field name="NUM">150</field>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id="_GW+lSvHA)wo;f[tJ@nc">
+        <field name="VAR">Arma1</field>
+        <value name="VALUE">
+          <block type="math_number" id="B|kN,Th_=BqRZS2ZaIA,">
+            <field name="NUM">7</field>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set" id="#;|V}Ui{Bf^3*:DYp;z6">
+            <field name="VAR">Arma2</field>
+            <value name="VALUE">
+              <block type="math_number" id="6`@fR6.b?/}LV-K?V36T">
+                <field name="NUM">15</field>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="dvWf%Fd4eR(p}.llCMRr">
+                <field name="VAR">Arma3</field>
+                <value name="VALUE">
+                  <block type="math_number" id="e-eApZR_6{cW}3tI0{.5">
+                    <field name="NUM">30</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="RAsM[]l:U#scgREW1a*+">
+                    <field name="VAR">ProbArma1</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="MCH/63s`*fO](yc4+Q`U">
+                        <field name="NUM">50</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="`LPsmah0(b{:|SMRGU]J">
+                        <field name="VAR">ProbArma2</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="nYrzl]#vy-1@_vVU!1/@">
+                            <field name="NUM">25</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="ziQ8.KC*yRz7VXCI6{?6">
+                            <field name="VAR">ProbArma3</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="L)dD:R8sCd)}EI0,@fGw">
+                                <field name="NUM">12</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="ML(3AvQr1Ery5CKb!B[j">
+                                <field name="VAR">vidaVampiro</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id="36cgG16~-uJvxf~eN:No">
+                                    <field name="NUM">60</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="variables_set" id="y6(1iD]dM4~+NZr_Kp3t">
+                                    <field name="VAR">Ataque1</field>
+                                    <value name="VALUE">
+                                      <block type="math_number" id="Y:xSw--,z4J)[~TCPk8B">
+                                        <field name="NUM">5</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="variables_set" id="|`_H^UpVbi.Vfs1Dt=tD">
+                                        <field name="VAR">Ataque2</field>
+                                        <value name="VALUE">
+                                          <block type="math_number" id="f7774t(H8OrTFyCh2`::">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="variables_set" id="^UZ%@zy(?9sfcyWO|r6z">
+                                            <field name="VAR">Ataque3</field>
+                                            <value name="VALUE">
+                                              <block type="math_number" id="!(ZkYGD8|9lP.S;Ad/2-">
+                                                <field name="NUM">20</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="variables_set" id="C!8B`(q8{z8r}wWQ+Gd}">
+                                                <field name="VAR">ProbAtaque1</field>
+                                                <value name="VALUE">
+                                                  <block type="math_number" id=":fS-b=+x[C99e,At%p,J">
+                                                    <field name="NUM">90</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="variables_set" id="kH#WO17KTI;fmHrU_4xN">
+                                                    <field name="VAR">ProbAtaque2</field>
+                                                    <value name="VALUE">
+                                                      <block type="math_number" id="!8bGt+,Zjur{X!z*a7?|">
+                                                        <field name="NUM">60</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="variables_set" id="XxP/cL+%1=BF,T|N/kpB">
+                                                        <field name="VAR">ProbAtaque3</field>
+                                                        <value name="VALUE">
+                                                          <block type="math_number" id="Jv^5E};k3#mjeai!UL3u">
+                                                            <field name="NUM">40</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="controls_whileUntil" id="Pjn4Den_2N|2I6_0PGj4">
+                                                            <field name="MODE">UNTIL</field>
+                                                            <value name="BOOL">
+                                                              <block type="logic_operation" id="sD!0JpTa1nCPAcHlx|2M">
+                                                                <field name="OP">OR</field>
+                                                                <value name="A">
+                                                                  <block type="logic_compare" id="L~^9za[VBW;^!F+nl^Np">
+                                                                    <field name="OP">LTE</field>
+                                                                    <value name="A">
+                                                                      <block type="variables_get" id=":aIw-L9KB-*NVQ1_X})n">
+                                                                        <field name="VAR">vidaGuerreo</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <block type="math_number" id="F.x;+3hU3g5|G8-z^JH,">
+                                                                        <field name="NUM">0</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="B">
+                                                                  <block type="logic_compare" id="9faJ^`)B(+RoGX#_5aGI">
+                                                                    <field name="OP">LTE</field>
+                                                                    <value name="A">
+                                                                      <block type="variables_get" id="-TfxUnT9Nm9ybb5OFaY/">
+                                                                        <field name="VAR">vidaVampiro</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <block type="math_number" id="?KD:#2y?Z^61`oeGEfQ9">
+                                                                        <field name="NUM">0</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <statement name="DO">
+                                                              <block type="variables_set" id="^cmzhT5;q*9Gc(Fhtc74">
+                                                                <field name="VAR">opciones</field>
+                                                                <value name="VALUE">
+                                                                  <block type="text_prompt_ext" id="jfF-sGMJr8HwrKfSJzil">
+                                                                    <mutation type="NUMBER"></mutation>
+                                                                    <field name="TYPE">NUMBER</field>
+                                                                    <value name="TEXT">
+                                                                      <block type="text" id="wGn/Y_X1b`4A.`JeW_nI">
+                                                                        <field name="TEXT">1 Ataque/ 2 Defensa/ 3Poción </field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="variables_set" id=";BYWPSvD5mo-z|N|%0]+">
+                                                                    <field name="VAR">Armas</field>
+                                                                    <value name="VALUE">
+                                                                      <block type="text_prompt_ext" id="%cc1bR@G0v|+7({zWA!-">
+                                                                        <mutation type="NUMBER"></mutation>
+                                                                        <field name="TYPE">NUMBER</field>
+                                                                        <value name="TEXT">
+                                                                          <block type="text" id="dfCfQzJ*6R9}(n/h#f+_">
+                                                                            <field name="TEXT">1 Arma1/ 2 Arma2/ Arma3</field>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="variables_set" id="!u;-iK+!dN;1gj1YeLK.">
+                                                                        <field name="VAR">valorDado</field>
+                                                                        <value name="VALUE">
+                                                                          <block type="math_random_int" id="Ke7!m=NG3elAc;DjfLU`">
+                                                                            <value name="FROM">
+                                                                              <block type="math_number" id="i=E~D@k#e`i0MiIqs44?">
+                                                                                <field name="NUM">1</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="TO">
+                                                                              <block type="math_number" id="7#%qWl[iQhL%a|s1S5cR">
+                                                                                <field name="NUM">100</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="controls_if" id="t;5ne%p__vm.M#UwhSX0">
+                                                                            <value name="IF0">
+                                                                              <block type="logic_compare" id="hm-D~K4Utv_VPjfqKrpU">
+                                                                                <field name="OP">GT</field>
+                                                                                <value name="A">
+                                                                                  <block type="variables_get" id="alc9~[PK2DA,ywRj:5xq">
+                                                                                    <field name="VAR">poción</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="B">
+                                                                                  <block type="math_number" id="x}m`3yg/s,85X_|~obHE">
+                                                                                    <field name="NUM">0</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                            <statement name="DO0">
+                                                                              <block type="text_print" id="y!ytZn~jflQ(OlKP::mP">
+                                                                                <value name="TEXT">
+                                                                                  <block type="math_arithmetic" id="HD4C?r[3nix*hIGl!`uc">
+                                                                                    <field name="OP">MINUS</field>
+                                                                                    <value name="A">
+                                                                                      <block type="variables_get" id="QDVa(KZ~:O:,XbCj1lJK">
+                                                                                        <field name="VAR">poción</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="B">
+                                                                                      <block type="math_number" id="k|%bEFXyAK@T(r_@Dy%_">
+                                                                                        <field name="NUM">1</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </statement>
+                                                                            <next>
+                                                                              <block type="controls_if" id="4gmz*^A5Y{UNTFVc9]u3">
+                                                                                <mutation else="1"></mutation>
+                                                                                <value name="IF0">
+                                                                                  <block type="logic_compare" id="xHV{QsaP[}1HcC+g03KD">
+                                                                                    <field name="OP">EQ</field>
+                                                                                    <value name="A">
+                                                                                      <block type="variables_get" id=":l[j%(Tp4y5(g)CDJPyL">
+                                                                                        <field name="VAR">poción</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="B">
+                                                                                      <block type="math_number" id="Kem+%O2lH%5]G2;wMqya">
+                                                                                        <field name="NUM">0</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <statement name="DO0">
+                                                                                  <block type="text_print" id="p)j@}HEUn+ZYhr;^CV4j">
+                                                                                    <value name="TEXT">
+                                                                                      <block type="text" id="xdU1E?-zui3PywE/NaJ_">
+                                                                                        <field name="TEXT">El guerrero ya puede moverse</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="text_print" id="d%Di~.;(/_C?/EN7Q/`g">
+                                                                                        <value name="TEXT">
+                                                                                          <block type="variables_get" id="1/y]y}~p(~vo!V3:I;Qb">
+                                                                                            <field name="VAR">opciones</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </statement>
+                                                                                <statement name="ELSE">
+                                                                                  <block type="text_print" id="uVB(~!fb#+#XejPAz[JK">
+                                                                                    <value name="TEXT">
+                                                                                      <block type="logic_negate" id="XXnTYbH?Y3Ok49*AJ0Sc">
+                                                                                        <value name="BOOL">
+                                                                                          <block type="variables_get" id="gS}a!?gTt1IrUARrX+]P">
+                                                                                            <field name="VAR">opciones</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </statement>
+                                                                                <next>
+                                                                                  <block type="controls_if" id="0:_FPaiPT-H,efy?A(B8">
+                                                                                    <value name="IF0">
+                                                                                      <block type="logic_compare" id="THr0V6_2dKzU26ej.?K:">
+                                                                                        <field name="OP">EQ</field>
+                                                                                        <value name="A">
+                                                                                          <block type="variables_get" id="MwJ4OqvzX;Y;r}=^hr|J">
+                                                                                            <field name="VAR">opciones</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="B">
+                                                                                          <block type="math_number" id="/@tAG,3(~hU,)Xc4zeKp">
+                                                                                            <field name="NUM">2</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <statement name="DO0">
+                                                                                      <block type="variables_set" id="0usI7ey3xwrl4SIKA{=A">
+                                                                                        <field name="VAR">Ataque1Defendido</field>
+                                                                                        <value name="VALUE">
+                                                                                          <block type="math_arithmetic" id="PB2N,fd/;3)r(h[hce@s">
+                                                                                            <field name="OP">MINUS</field>
+                                                                                            <value name="A">
+                                                                                              <block type="variables_get" id="8,fkCrAg8DG56]=?vHVS">
+                                                                                                <field name="VAR">Ataque1</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <value name="B">
+                                                                                              <block type="math_number" id=",a36Dd_3CxAPX.UKODR^">
+                                                                                                <field name="NUM">5</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="variables_set" id="Bmniz8:us_r-`Z]Yw5!H">
+                                                                                            <field name="VAR">Ataque2defendido</field>
+                                                                                            <value name="VALUE">
+                                                                                              <block type="math_arithmetic" id="*Pax}`]v|p3MPX!r~{Pm">
+                                                                                                <field name="OP">MINUS</field>
+                                                                                                <value name="A">
+                                                                                                  <block type="variables_get" id="l2sR.+B7evz@cHsxxu,F">
+                                                                                                    <field name="VAR">Ataque2</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <value name="B">
+                                                                                                  <block type="math_number" id="?`i5L!qwfKA/^-JJ}|?e">
+                                                                                                    <field name="NUM">5</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="variables_set" id="4xmh0t@nZSbsJ-hLWq.W">
+                                                                                                <field name="VAR">Ataque3Defendido</field>
+                                                                                                <value name="VALUE">
+                                                                                                  <block type="math_arithmetic" id="JZa5U6V_e#`A4;N~X)os">
+                                                                                                    <field name="OP">MINUS</field>
+                                                                                                    <value name="A">
+                                                                                                      <block type="variables_get" id=":ZC6qMD2jh,s6+W5ELoh">
+                                                                                                        <field name="VAR">Ataque3</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <value name="B">
+                                                                                                      <block type="math_number" id="0[Mb(=e2Mq~|zw0j~o2j">
+                                                                                                        <field name="NUM">5</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </statement>
+                                                                                    <next>
+                                                                                      <block type="controls_if" id="u,vD3r/%I_%=AIO[Mh*#">
+                                                                                        <mutation else="1"></mutation>
+                                                                                        <value name="IF0">
+                                                                                          <block type="logic_compare" id="o))G,c+7R)JOu30oqkUv">
+                                                                                            <field name="OP">LT</field>
+                                                                                            <value name="A">
+                                                                                              <block type="variables_get" id="TowltHTk6*71~/TcI8=[">
+                                                                                                <field name="VAR">vidaGuerreo</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <value name="B">
+                                                                                              <block type="math_number" id="K6YB_`B@={hWn,g.2}MH">
+                                                                                                <field name="NUM">30</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <statement name="DO0">
+                                                                                          <block type="text_print" id="B}T#.1uqnJun.vb*tI%o">
+                                                                                            <value name="TEXT">
+                                                                                              <block type="text" id="kNAFrtwS7^qxI|/#t5tL">
+                                                                                                <field name="TEXT">El guerrero se ha desmayado</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="variables_set" id="y;NB-.s4)zk:f)4(E~Go">
+                                                                                                <field name="VAR">vidaGuerreo</field>
+                                                                                                <value name="VALUE">
+                                                                                                  <block type="math_number" id="X{s.c#|j@I=4xDbWbt[A">
+                                                                                                    <field name="NUM">30</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="text_print" id="M3c1Jd~[n`QG#Q!|=`nK">
+                                                                                                    <value name="TEXT">
+                                                                                                      <block type="math_arithmetic" id="Y7yAM^C1H.BN5B=.0dyy">
+                                                                                                        <field name="OP">ADD</field>
+                                                                                                        <value name="A">
+                                                                                                          <block type="variables_get" id="{D;jR^m*huro%f~b6E+V">
+                                                                                                            <field name="VAR">vidaGuerreo</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <value name="B">
+                                                                                                          <block type="math_number" id="nfL=AUvz8tC3AFqN[Db=">
+                                                                                                            <field name="NUM">2</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </statement>
+                                                                                        <statement name="ELSE">
+                                                                                          <block type="controls_if" id="=*fQtn}:jBam;3ALbYGJ">
+                                                                                            <mutation elseif="2"></mutation>
+                                                                                            <value name="IF0">
+                                                                                              <block type="logic_compare" id="Z|{j}!Oppg?VR5p@3~V,">
+                                                                                                <field name="OP">EQ</field>
+                                                                                                <value name="A">
+                                                                                                  <block type="variables_get" id="GPs:@y4OyU6LT-G34js~">
+                                                                                                    <field name="VAR">opciones</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <value name="B">
+                                                                                                  <block type="math_number" id="64NiflfLyi}NF3(~u3*S">
+                                                                                                    <field name="NUM">1</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <statement name="DO0">
+                                                                                              <block type="text_print" id="M8ve,Es+j;MABai141Xe">
+                                                                                                <value name="TEXT">
+                                                                                                  <block type="text" id="b?YWy9~T,n*uy~!*sGu:">
+                                                                                                    <field name="TEXT">Has elegido la opción de atacar</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="controls_if" id="jB1]mUAj}{sT`l_9EZ75">
+                                                                                                    <mutation elseif="2"></mutation>
+                                                                                                    <value name="IF0">
+                                                                                                      <block type="logic_compare" id="E.[epT~KmCOd@9gbC[VD">
+                                                                                                        <field name="OP">EQ</field>
+                                                                                                        <value name="A">
+                                                                                                          <block type="variables_get" id="(vcXOvG=|fR,1tPe-ULa">
+                                                                                                            <field name="VAR">Armas</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <value name="B">
+                                                                                                          <block type="math_number" id="?1]poqQvAJN+h=~_~=jq">
+                                                                                                            <field name="NUM">1</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <statement name="DO0">
+                                                                                                      <block type="text_print" id="Tj)1YuA[eP=032y_Z!o(">
+                                                                                                        <value name="TEXT">
+                                                                                                          <block type="text" id="^HfZ1Lj+C^q#-SNC}_xB">
+                                                                                                            <field name="TEXT">Has elegido el arma 1</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="controls_if" id="bH]{`Nz)+4QACqe*m*JD">
+                                                                                                            <mutation else="1"></mutation>
+                                                                                                            <value name="IF0">
+                                                                                                              <block type="logic_compare" id="Y%%JR.kEjGs-@D]MJS%#">
+                                                                                                                <field name="OP">LTE</field>
+                                                                                                                <value name="A">
+                                                                                                                  <block type="variables_get" id="x[=RN{;=OY3[Jo*4ddy^">
+                                                                                                                    <field name="VAR">valorDado</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <value name="B">
+                                                                                                                  <block type="variables_get" id="q1M?UJ^pGDinFXA5),(R">
+                                                                                                                    <field name="VAR">ProbArma1</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <statement name="DO0">
+                                                                                                              <block type="variables_set" id="P,vnR8TB~7t{U+hA5([-">
+                                                                                                                <field name="VAR">vidaVampiro</field>
+                                                                                                                <value name="VALUE">
+                                                                                                                  <block type="math_arithmetic" id="uBGPk,OuqWQZb5P62KRr">
+                                                                                                                    <field name="OP">MINUS</field>
+                                                                                                                    <value name="A">
+                                                                                                                      <block type="variables_get" id="gW0aV7;B7+7eKeU780)T">
+                                                                                                                        <field name="VAR">vidaVampiro</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <value name="B">
+                                                                                                                      <block type="variables_get" id="SFUoP(_?m_KCbDz0=MCP">
+                                                                                                                        <field name="VAR">Arma1</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="text_print" id="WDUpQxqPYlfrMv4wpA{s">
+                                                                                                                    <value name="TEXT">
+                                                                                                                      <block type="text_join" id=")DIdZahnK#[d*7r)_GbL">
+                                                                                                                        <mutation items="3"></mutation>
+                                                                                                                        <value name="ADD0">
+                                                                                                                          <block type="text" id=":q6-?uHVmfcl`z|9c6`w">
+                                                                                                                            <field name="TEXT">Ataque exitoso, al vampiro le quedan </field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD1">
+                                                                                                                          <block type="variables_get" id="mZHiF(#Zh8cItHH-y]NE">
+                                                                                                                            <field name="VAR">vidaVampiro</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD2">
+                                                                                                                          <block type="text" id="QPX:qdiWM,]6X^DzSd;~">
+                                                                                                                            <field name="TEXT"> de vida</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                            <statement name="ELSE">
+                                                                                                              <block type="text_print" id="w!Hz*I!NMByt,w1/89o=">
+                                                                                                                <value name="TEXT">
+                                                                                                                  <block type="text" id="hT,Te;id!0VnT!}zkIi@">
+                                                                                                                    <field name="TEXT">Ataque fallido, el vampiro conserva toda su vida</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </statement>
+                                                                                                    <value name="IF1">
+                                                                                                      <block type="logic_compare" id="@;9{R1~2@wX0hsk[I)D}">
+                                                                                                        <field name="OP">EQ</field>
+                                                                                                        <value name="A">
+                                                                                                          <block type="variables_get" id="o8GR*-.nOcl=!vYvbd}j">
+                                                                                                            <field name="VAR">Armas</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <value name="B">
+                                                                                                          <block type="math_number" id="OL]*#G-fRuU~6*Kw1jBd">
+                                                                                                            <field name="NUM">2</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <statement name="DO1">
+                                                                                                      <block type="text_print" id="bqgz3cRT;Z3?(=N?S{a3">
+                                                                                                        <value name="TEXT">
+                                                                                                          <block type="text" id="ddE[KZu!k069-}eL@c4H">
+                                                                                                            <field name="TEXT">Has elegido el arma 2</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="controls_if" id="{Q}fd(U^Q(78N2~/(4E9">
+                                                                                                            <mutation else="1"></mutation>
+                                                                                                            <value name="IF0">
+                                                                                                              <block type="logic_compare" id="M_7|]ar2V*0~1dZJ9uUj">
+                                                                                                                <field name="OP">LTE</field>
+                                                                                                                <value name="A">
+                                                                                                                  <block type="variables_get" id="9~r5|J^Kk9]q7wKM%B=A">
+                                                                                                                    <field name="VAR">valorDado</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <value name="B">
+                                                                                                                  <block type="variables_get" id="?7wr`dFF1)y+JUnqq(2d">
+                                                                                                                    <field name="VAR">ProbArma2</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <statement name="DO0">
+                                                                                                              <block type="variables_set" id="nMgXLf34t3}44#+_gl:|">
+                                                                                                                <field name="VAR">vidaVampiro</field>
+                                                                                                                <value name="VALUE">
+                                                                                                                  <block type="math_arithmetic" id="Yb6:%/bJ5|3cr2){_{+M">
+                                                                                                                    <field name="OP">MINUS</field>
+                                                                                                                    <value name="A">
+                                                                                                                      <block type="variables_get" id="XPrS?natFe?(17V^D0/X">
+                                                                                                                        <field name="VAR">vidaVampiro</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <value name="B">
+                                                                                                                      <block type="variables_get" id="Ovz)D;d?0Vxi=h.OgM`l">
+                                                                                                                        <field name="VAR">Arma2</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="text_print" id="=t2=8sq7%}m~lwKNPUBe">
+                                                                                                                    <value name="TEXT">
+                                                                                                                      <block type="text_join" id="1T~^pbcZl-Vf]w5OdI!:">
+                                                                                                                        <mutation items="3"></mutation>
+                                                                                                                        <value name="ADD0">
+                                                                                                                          <block type="text" id="QEku^8?|.7}4VSR=rk}7">
+                                                                                                                            <field name="TEXT">Ataque exitoso, al vampiro le quedan </field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD1">
+                                                                                                                          <block type="variables_get" id="3sx4!VS4B}IFYY6TWvvx">
+                                                                                                                            <field name="VAR">vidaVampiro</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD2">
+                                                                                                                          <block type="text" id="hV*PlZ6q[;^8+v!2#eZV">
+                                                                                                                            <field name="TEXT"> de vida</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                            <statement name="ELSE">
+                                                                                                              <block type="text_print" id="|ADI-l}K3)p[Z@w/s0xm">
+                                                                                                                <value name="TEXT">
+                                                                                                                  <block type="text" id="/dUTj`BWi~QtV1jz12`[">
+                                                                                                                    <field name="TEXT">Ataque fallido, el vampiro conserva toda su vida</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </statement>
+                                                                                                    <value name="IF2">
+                                                                                                      <block type="logic_compare" id="(ceP8.HmeJw.}2;,jW?j">
+                                                                                                        <field name="OP">EQ</field>
+                                                                                                        <value name="A">
+                                                                                                          <block type="variables_get" id="}T8=XTQOD%JEiO}|yaei">
+                                                                                                            <field name="VAR">Armas</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <value name="B">
+                                                                                                          <block type="math_number" id=";Y6rQurY@(*ByG!=9{06">
+                                                                                                            <field name="NUM">3</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <statement name="DO2">
+                                                                                                      <block type="text_print" id="BjOz]^*ecXD%5Q%01gH2">
+                                                                                                        <value name="TEXT">
+                                                                                                          <block type="text" id="0U8IoXdv^IVaDM*hpYX^">
+                                                                                                            <field name="TEXT">Has elegido el arma 3</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="controls_if" id="HJ[qZ*lJ%lwF+Fpm+,rx">
+                                                                                                            <mutation else="1"></mutation>
+                                                                                                            <value name="IF0">
+                                                                                                              <block type="logic_compare" id="3Z_4IzuRBpAF,#%jNe!*">
+                                                                                                                <field name="OP">LTE</field>
+                                                                                                                <value name="A">
+                                                                                                                  <block type="variables_get" id="SNQh0+mop@k-|dDj]1^p">
+                                                                                                                    <field name="VAR">valorDado</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <value name="B">
+                                                                                                                  <block type="variables_get" id="Fm[HP_rnP9zf@-Vn|s]f">
+                                                                                                                    <field name="VAR">ProbArma3</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <statement name="DO0">
+                                                                                                              <block type="variables_set" id="21N;l/*F@H*5_;XlLfPu">
+                                                                                                                <field name="VAR">vidaVampiro</field>
+                                                                                                                <value name="VALUE">
+                                                                                                                  <block type="math_arithmetic" id="j!+EU!zFlGqLqggGNfub">
+                                                                                                                    <field name="OP">MINUS</field>
+                                                                                                                    <value name="A">
+                                                                                                                      <block type="variables_get" id=",gs[2Dr=m5Fo*2RqN31Q">
+                                                                                                                        <field name="VAR">vidaVampiro</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <value name="B">
+                                                                                                                      <block type="variables_get" id="Q8gH]!,h,Z:I0)k(.VV:">
+                                                                                                                        <field name="VAR">Arma3</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="text_print" id="ikqW-O3D]N(jFn1z*Xgq">
+                                                                                                                    <value name="TEXT">
+                                                                                                                      <block type="text_join" id="v`W^swHB@{{igQ+SE@HQ">
+                                                                                                                        <mutation items="3"></mutation>
+                                                                                                                        <value name="ADD0">
+                                                                                                                          <block type="text" id="LDx`hAb[CY+{AF7wmk!J">
+                                                                                                                            <field name="TEXT">Ataque exitoso, al vampiro le quedan </field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD1">
+                                                                                                                          <block type="variables_get" id="#3IwO~(X@belU!{_=Ve@">
+                                                                                                                            <field name="VAR">vidaVampiro</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD2">
+                                                                                                                          <block type="text" id="I3D5r0ek,2=YFr-9nso9">
+                                                                                                                            <field name="TEXT"> de vida</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                            <statement name="ELSE">
+                                                                                                              <block type="text_print" id="*Z|Lw6-tSx0/wHqz]%qQ">
+                                                                                                                <value name="TEXT">
+                                                                                                                  <block type="text" id="JNQft#i_sfj(lFUfRk9,">
+                                                                                                                    <field name="TEXT">Ataque fallido, el vampiro conserva toda su vida</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </statement>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                            <value name="IF1">
+                                                                                              <block type="logic_compare" id="uUSV0`*ky7I=S/T^G}x6">
+                                                                                                <field name="OP">EQ</field>
+                                                                                                <value name="A">
+                                                                                                  <block type="variables_get" id="_T-1{N)ZWHXAW4t)WdmK">
+                                                                                                    <field name="VAR">opciones</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <value name="B">
+                                                                                                  <block type="math_number" id="b8fwNQ),s:w]HgK26i(3">
+                                                                                                    <field name="NUM">2</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <statement name="DO1">
+                                                                                              <block type="text_print" id="bSPOY.!(cQL]^i4@rg#M">
+                                                                                                <value name="TEXT">
+                                                                                                  <block type="text" id="L*lFg#p6/P}q/JjdYtom">
+                                                                                                    <field name="TEXT">Has elegido la opción de defenderte</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="variables_set" id="X-PGn[z6j}eXQ?(F.UX+">
+                                                                                                    <field name="VAR">capacidadDeDefensa</field>
+                                                                                                    <value name="VALUE">
+                                                                                                      <block type="math_number" id="M1~1#t!Rgy5Q~0?!Va~~">
+                                                                                                        <field name="NUM">80</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <next>
+                                                                                                      <block type="variables_set" id="pIbngX?f9Qxo860%6gU#">
+                                                                                                        <field name="VAR">ataques</field>
+                                                                                                        <value name="VALUE">
+                                                                                                          <block type="math_random_int" id=")iR-=4moT|d:,Osi9RYq">
+                                                                                                            <value name="FROM">
+                                                                                                              <block type="math_number" id="m6}geL-]C%b1sEO5^m]V">
+                                                                                                                <field name="NUM">1</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <value name="TO">
+                                                                                                              <block type="math_number" id="JLa,UP7~#uu.g/HaR-5u">
+                                                                                                                <field name="NUM">3</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                            <value name="IF2">
+                                                                                              <block type="logic_compare" id="EX4BO.Y?f8Lkx5pbJwwn">
+                                                                                                <field name="OP">EQ</field>
+                                                                                                <value name="A">
+                                                                                                  <block type="variables_get" id="mgk5R^q~A5s(`XM4JuDb">
+                                                                                                    <field name="VAR">opciones</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <value name="B">
+                                                                                                  <block type="math_number" id="B=R_2j_kQH1y;BIF!E7.">
+                                                                                                    <field name="NUM">3</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <statement name="DO2">
+                                                                                              <block type="text_print" id="=b4phPKp~F;.-kh.q?-,">
+                                                                                                <value name="TEXT">
+                                                                                                  <block type="text" id="]Hr:/uVC=^POJWXC!qS~">
+                                                                                                    <field name="TEXT">Has elegido la opción de beber la poción</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="text_print" id="CkZz;va5R]aF~sQ0j=I8">
+                                                                                                    <value name="TEXT">
+                                                                                                      <block type="text" id="y{|oU,*AQL!T9aec;JKH">
+                                                                                                        <field name="TEXT">El guerrero no podrá moverse en dos turno más</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <next>
+                                                                                                      <block type="variables_set" id="JRWzhx=C.dOcG4p.?I2k">
+                                                                                                        <field name="VAR">poción</field>
+                                                                                                        <value name="VALUE">
+                                                                                                          <block type="math_number" id="n0+M.X%vLML9Pz9r,N#M">
+                                                                                                            <field name="NUM">3</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                          </block>
+                                                                                        </statement>
+                                                                                        <next>
+                                                                                          <block type="controls_if" id="e{Z{AbEjehf6ul`p|5[p">
+                                                                                            <mutation else="1"></mutation>
+                                                                                            <value name="IF0">
+                                                                                              <block type="logic_compare" id="4eY2wiYDa3-3._#Vyu6*">
+                                                                                                <field name="OP">LT</field>
+                                                                                                <value name="A">
+                                                                                                  <block type="variables_get" id="k6n@Oh?(8Rz-609/v@4g">
+                                                                                                    <field name="VAR">vidaVampiro</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <value name="B">
+                                                                                                  <block type="math_number" id="h[`,mmbKoUOM4+qKrJ9F">
+                                                                                                    <field name="NUM">20</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <statement name="DO0">
+                                                                                              <block type="text_print" id="kG#IP,s@3qc)rBLemB1q">
+                                                                                                <value name="TEXT">
+                                                                                                  <block type="text" id="`t.!y*JI(}bfwd4_ARcl">
+                                                                                                    <field name="TEXT">El vampiro se ha desmayado</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="variables_set" id="=8eFy~j+Tfyd8?EQj9C/">
+                                                                                                    <field name="VAR">vidaVampiro</field>
+                                                                                                    <value name="VALUE">
+                                                                                                      <block type="math_number" id="h#ZQ(p`HLwlSTjMu15,h">
+                                                                                                        <field name="NUM">20</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <next>
+                                                                                                      <block type="text_print" id=":O?87Car?o+t0FU+cy#i">
+                                                                                                        <value name="TEXT">
+                                                                                                          <block type="math_arithmetic" id="T.)y+#K?0t{?QX/2aq``">
+                                                                                                            <field name="OP">ADD</field>
+                                                                                                            <value name="A">
+                                                                                                              <block type="variables_get" id="o[mR5ZKR!QxV%B3gF?CG">
+                                                                                                                <field name="VAR">vidaVampiro</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <value name="B">
+                                                                                                              <block type="math_number" id="9{p|I#mZ3lV:p^{Gg#/a">
+                                                                                                                <field name="NUM">2</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                            <statement name="ELSE">
+                                                                                              <block type="variables_set" id="-%bK%F7W[wMyEQl{bMp.">
+                                                                                                <field name="VAR">ataques</field>
+                                                                                                <value name="VALUE">
+                                                                                                  <block type="math_random_int" id="%O|DA.)3fH,xwYkKy!%8">
+                                                                                                    <value name="FROM">
+                                                                                                      <block type="math_number" id="Hd^mZil}._nE6vY+?=|F">
+                                                                                                        <field name="NUM">1</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <value name="TO">
+                                                                                                      <block type="math_number" id="kC22JqyJ60vK#nfrVI07">
+                                                                                                        <field name="NUM">3</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="controls_if" id="?hRMZLk{Wh07t^2lwo!=">
+                                                                                                    <mutation elseif="2"></mutation>
+                                                                                                    <value name="IF0">
+                                                                                                      <block type="logic_compare" id="+.8Xs]p[j(DTTxiCMX+e">
+                                                                                                        <field name="OP">EQ</field>
+                                                                                                        <value name="A">
+                                                                                                          <block type="variables_get" id=";zXx6`HPjU+P5[L=:|G~">
+                                                                                                            <field name="VAR">ataques</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <value name="B">
+                                                                                                          <block type="math_number" id="B)2}~LGX3UHa80V({:w5">
+                                                                                                            <field name="NUM">1</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <statement name="DO0">
+                                                                                                      <block type="text_print" id="vkXKLr;A_OE8_JJNro]-">
+                                                                                                        <value name="TEXT">
+                                                                                                          <block type="text" id="S]NS`?l:2*a(nSRT#4bs">
+                                                                                                            <field name="TEXT">El vampiro utilizará el ataque 1</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="controls_if" id="eEf-#7JNQKbsD./{68/r">
+                                                                                                            <mutation else="1"></mutation>
+                                                                                                            <value name="IF0">
+                                                                                                              <block type="logic_compare" id=".+:c|73Ay.1G@mhLysV?">
+                                                                                                                <field name="OP">LTE</field>
+                                                                                                                <value name="A">
+                                                                                                                  <block type="variables_get" id="[Vpn%aPH*|INo8dp(dFZ">
+                                                                                                                    <field name="VAR">valorDado</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <value name="B">
+                                                                                                                  <block type="variables_get" id="bfI9JD%X7IGJhMs_Wi.i">
+                                                                                                                    <field name="VAR">ProbAtaque1</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <statement name="DO0">
+                                                                                                              <block type="variables_set" id="e0VJ4@isT1%rCfxqELXt">
+                                                                                                                <field name="VAR">vidaGuerreo</field>
+                                                                                                                <value name="VALUE">
+                                                                                                                  <block type="math_arithmetic" id="^WGKHn^Zn~~DO8ypE=1W">
+                                                                                                                    <field name="OP">MINUS</field>
+                                                                                                                    <value name="A">
+                                                                                                                      <block type="variables_get" id="lZFkC9~2[;~3=WYlHd{c">
+                                                                                                                        <field name="VAR">vidaGuerreo</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <value name="B">
+                                                                                                                      <block type="variables_get" id="@krnxlqmmhX4fJ8z0q[]">
+                                                                                                                        <field name="VAR">Ataque1</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="text_print" id="3IzJ~@^3vv-v1Azh-o/v">
+                                                                                                                    <value name="TEXT">
+                                                                                                                      <block type="text_join" id="d1~N-zY]t4|nJ|*p,kUz">
+                                                                                                                        <mutation items="3"></mutation>
+                                                                                                                        <value name="ADD0">
+                                                                                                                          <block type="text" id="ClGW=sMGH2;HCj^5U[Ke">
+                                                                                                                            <field name="TEXT">Ataque exitoso, al guerrero le quedan </field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD1">
+                                                                                                                          <block type="variables_get" id="lvjtPGywizIFG/i;*9W9">
+                                                                                                                            <field name="VAR">vidaGuerreo</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD2">
+                                                                                                                          <block type="text" id="^x]YDO(|M}]F.,+[)N9V">
+                                                                                                                            <field name="TEXT"> de vida</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                            <statement name="ELSE">
+                                                                                                              <block type="text_print" id="+N8Tg)d;7!SAQi(ay=iU">
+                                                                                                                <value name="TEXT">
+                                                                                                                  <block type="text" id="HT/kp,:6I:@{!E9_8Jn5">
+                                                                                                                    <field name="TEXT">Ataque fallido, el guerrero conserva toda su vida</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </statement>
+                                                                                                    <value name="IF1">
+                                                                                                      <block type="logic_compare" id="mVl%z~jg+-L=TvQbS[xq">
+                                                                                                        <field name="OP">EQ</field>
+                                                                                                        <value name="A">
+                                                                                                          <block type="variables_get" id="~-=7@PAXcHEFb%,1~qgY">
+                                                                                                            <field name="VAR">ataques</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <value name="B">
+                                                                                                          <block type="math_number" id="A(TZ?ghhu;ByXkkNVIy6">
+                                                                                                            <field name="NUM">2</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <statement name="DO1">
+                                                                                                      <block type="text_print" id="39]7Aa8[oi6(2banh?Ea">
+                                                                                                        <value name="TEXT">
+                                                                                                          <block type="text" id="f?FdPDFb0EyVI{QaT57V">
+                                                                                                            <field name="TEXT">La vampiresa utilizará el ataque 2</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="controls_if" id="Zr`jRj]Qe=_wbKo3Jap]">
+                                                                                                            <mutation else="1"></mutation>
+                                                                                                            <value name="IF0">
+                                                                                                              <block type="logic_compare" id="SfK*2!9DLz?ul.}mT?c!">
+                                                                                                                <field name="OP">LTE</field>
+                                                                                                                <value name="A">
+                                                                                                                  <block type="variables_get" id="mb*7h,u`8|k_-N+RAQ2V">
+                                                                                                                    <field name="VAR">valorDado</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <value name="B">
+                                                                                                                  <block type="variables_get" id="4}?oW^E.GindK9j/cw1:">
+                                                                                                                    <field name="VAR">ProbAtaque2</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <statement name="DO0">
+                                                                                                              <block type="variables_set" id="zaJdhk:`:}FcK8vLMVm^">
+                                                                                                                <field name="VAR">vidaGuerreo</field>
+                                                                                                                <value name="VALUE">
+                                                                                                                  <block type="math_arithmetic" id="HVYx1J)fyIZ=LN;s@(,B">
+                                                                                                                    <field name="OP">MINUS</field>
+                                                                                                                    <value name="A">
+                                                                                                                      <block type="variables_get" id="g+bS!~x%{LN:n*7b,B95">
+                                                                                                                        <field name="VAR">vidaGuerreo</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <value name="B">
+                                                                                                                      <block type="variables_get" id="QEBK:krSA:jVmBGMU@1K">
+                                                                                                                        <field name="VAR">Ataque2</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="text_print" id="6,[F~5mo0E15ox6#@Dh!">
+                                                                                                                    <value name="TEXT">
+                                                                                                                      <block type="text_join" id="{H6ZAJi]Grvskl:{W;WB">
+                                                                                                                        <mutation items="3"></mutation>
+                                                                                                                        <value name="ADD0">
+                                                                                                                          <block type="text" id="(P`3@K1N|*L.*?@vJE+!">
+                                                                                                                            <field name="TEXT">Ataque exitoso, al guerrero le quedan </field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD1">
+                                                                                                                          <block type="variables_get" id="/@C{`xompRX-E`V~alp5">
+                                                                                                                            <field name="VAR">vidaGuerreo</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD2">
+                                                                                                                          <block type="text" id="0_Xmdgxm#-hi+]6jm3*D">
+                                                                                                                            <field name="TEXT"> de vida</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                            <statement name="ELSE">
+                                                                                                              <block type="text_print" id="m31g8WIh.F,~Z(K2z2x3">
+                                                                                                                <value name="TEXT">
+                                                                                                                  <block type="text" id="fYrb]S9]gA(R@sM|ommE">
+                                                                                                                    <field name="TEXT">Ataque fallido, el guerrero conserva toda su vida</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </statement>
+                                                                                                    <value name="IF2">
+                                                                                                      <block type="logic_compare" id="tc}W.3m;[|1lA7;~6qKd">
+                                                                                                        <field name="OP">EQ</field>
+                                                                                                        <value name="A">
+                                                                                                          <block type="variables_get" id="BukH4V.TJ/cmyPTZ#N:W">
+                                                                                                            <field name="VAR">ataques</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <value name="B">
+                                                                                                          <block type="math_number" id="jOkL{V.GP3VT*DKUmaya">
+                                                                                                            <field name="NUM">3</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <statement name="DO2">
+                                                                                                      <block type="text_print" id="afj{|8zZ^yzpZ^-LW(RI">
+                                                                                                        <value name="TEXT">
+                                                                                                          <block type="text" id="=HY*b+|HiTHTA:;fzb0c">
+                                                                                                            <field name="TEXT">El vampiro utilizará el ataque 3</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="controls_if" id="ZEOv!G#Gz#yLcJfaK[dO">
+                                                                                                            <mutation else="1"></mutation>
+                                                                                                            <value name="IF0">
+                                                                                                              <block type="logic_compare" id="B1Q:+Gs(c~hBjv}|[S22">
+                                                                                                                <field name="OP">LTE</field>
+                                                                                                                <value name="A">
+                                                                                                                  <block type="variables_get" id="?dKa:pCp=8}b`bTo;W:+">
+                                                                                                                    <field name="VAR">valorDado</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <value name="B">
+                                                                                                                  <block type="variables_get" id="|ND?63KXU.;Sll8PUie)">
+                                                                                                                    <field name="VAR">ProbAtaque3</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <statement name="DO0">
+                                                                                                              <block type="variables_set" id="y1JA/{t9}RD`l5Qv,7Uc">
+                                                                                                                <field name="VAR">vidaGuerreo</field>
+                                                                                                                <value name="VALUE">
+                                                                                                                  <block type="math_arithmetic" id="(Zx%_I:wL`S9E)ZAeGV8">
+                                                                                                                    <field name="OP">MINUS</field>
+                                                                                                                    <value name="A">
+                                                                                                                      <block type="variables_get" id="y:qLPBW@MQgL^q}lDQBM">
+                                                                                                                        <field name="VAR">vidaGuerreo</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <value name="B">
+                                                                                                                      <block type="variables_get" id="h)ZL6KzIcNob:@sknMZ?">
+                                                                                                                        <field name="VAR">Ataque3</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="text_print" id="Y|=?Dq}J%5dx|FcE(qp[">
+                                                                                                                    <value name="TEXT">
+                                                                                                                      <block type="text_join" id="o1sr1?P+{0ChuaYx,afP">
+                                                                                                                        <mutation items="3"></mutation>
+                                                                                                                        <value name="ADD0">
+                                                                                                                          <block type="text" id="|DH!wfeUNPYpt0(rn;+^">
+                                                                                                                            <field name="TEXT">Ataque exitoso, al guerrero le quedan </field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD1">
+                                                                                                                          <block type="variables_get" id="Jtn.}/od[^p)I~+3{_4P">
+                                                                                                                            <field name="VAR">vidaGuerreo</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="ADD2">
+                                                                                                                          <block type="text" id=")uOh/LQUZOAhJ*GQ{hIy">
+                                                                                                                            <field name="TEXT"> de vida</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                            <statement name="ELSE">
+                                                                                                              <block type="text_print" id="oHDR1u}FG+DlB3oSr-[D">
+                                                                                                                <value name="TEXT">
+                                                                                                                  <block type="text" id="u;mtfzjtaF4a8LHKDQpc">
+                                                                                                                    <field name="TEXT">Ataque fallido, el guerrero conserva toda su vida</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </statement>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </statement>
+                                                            <next>
+                                                              <block type="controls_if" id="*3.wfu%NV3,jA:~+*O5y">
+                                                                <mutation elseif="1"></mutation>
+                                                                <value name="IF0">
+                                                                  <block type="logic_compare" id="mj|QjzThyFe^`l{lmICN">
+                                                                    <field name="OP">EQ</field>
+                                                                    <value name="A">
+                                                                      <block type="variables_get" id="Y}Pp2SajJEm0#dhThN6s">
+                                                                        <field name="VAR">vidaGuerreo</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <block type="math_number" id="cc7f9WxIuNT9RqDOkUhV">
+                                                                        <field name="NUM">0</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <statement name="DO0">
+                                                                  <block type="text_print" id="/o[;qU#tQhg_u4z@V^D-">
+                                                                    <value name="TEXT">
+                                                                      <block type="text" id="Z/Y~{XphxPh`zp!Aj6}0">
+                                                                        <field name="TEXT">El guerrero a muerto, la vampiresa a ganado</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </statement>
+                                                                <value name="IF1">
+                                                                  <block type="logic_compare" id="%,Ir]3/n*,=Vios^Uv27">
+                                                                    <field name="OP">EQ</field>
+                                                                    <value name="A">
+                                                                      <block type="variables_get" id="CRnZ}nOshuhGdA=OZw{A">
+                                                                        <field name="VAR">vidaVampiro</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <block type="math_number" id="xXQMn3NB4Eqd:`@8oaVS">
+                                                                        <field name="NUM">0</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <statement name="DO1">
+                                                                  <block type="text_print" id="MpHl?MhuWE]l)AUqTy6-">
+                                                                    <value name="TEXT">
+                                                                      <block type="text" id="{nE?lS?YF.F~_b)2nv*|">
+                                                                        <field name="TEXT">El vampiro a muerto, la heroína a ganado</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </statement>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
