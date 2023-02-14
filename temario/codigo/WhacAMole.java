@@ -17,11 +17,10 @@ class WhacAMole {
             System.out.println("Donde da el golpe?");
             numeroUsuario=entrada.nextInt();
 
+            mazo = "[---]";
             if (numeroMonigote==numeroUsuario) {
                 mazo = "[*~*]";
                 puntos++;
-            } else {
-                mazo = "[---]";
             }
 
             for(int posicion=1;posicion<=16;posicion++){
@@ -36,9 +35,7 @@ class WhacAMole {
                     System.out.println();
                 }
             }
-
         }
         System.out.println("Acerto " + puntos + " veces");
-
     }
 }
