@@ -58,4 +58,27 @@
 
 - for(){} para la gestión de bloques de código dónde se conoce a priori el número de repeticiones
 - while() y do...while(); para la gestión de bloques de código mediante estados
-- Concepto iniciatico de estado de un sistema y su uso para gestionar bucles. [Ejemplo con el reto de adivina un número](EstructurasControl.java).
+- Concepto iniciatico de estado de un sistema y su uso para gestionar bucles. [Ejemplo con el reto de adivina un número](codigo/EstructurasControl.java).
+
+### Métodos estáticos
+
+- Necesidad de uso de métodos estáticos y el concepto de responsabilidad.
+- Paso de parámetros.
+- Devolución (o no) de valores.
+- Ámbito de variables: variables locales & variables globales.
+- Reparto de responsabilidades I
+- [Ejemplo usando como base el examen parcial](codigo/UnaCarreraMetodos.java), dividiendo el código mediante métodos estáticos, trasladando la responsabilidad a métodos, una responsabilidad por método.
+
+### Matrices
+
+- Necesidad del uso de matrices
+- Inicialización de matrices
+- Uso de matrices
+    - [Ejemplo basado lejanamente en el reto de las cajas](./codigo/JuegosConMatrices.java)
+- Reparto de responsabilidades II
+    - [Ejemplo usando como base el examen parcial, incluyendo arrays para extender el número de jugadores](codigo/UnaCarreraMetodosArray.java)
+    - [Adivina el número](/retos/soluciones/AdivinaNumero.java), versión con métodos estáticos (incluyendo la pista de frío, tibio y caliente).
+- Matrices bidimensionales
+    - Recorrido de una matriz
+    - Concepto de parseo o traducción
+    - [Ejemplo que aborda ambos conceptos](./codigo/JuegosConMatrices2D.java)
